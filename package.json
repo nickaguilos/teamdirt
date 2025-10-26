@@ -1,0 +1,17 @@
+{
+  "name": "teamdirt",
+  "version": "1.0.0",
+  "description": "This is a no-build static site using Bootstrap Node Proj for fast deployment on GitHub Pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8"
+  }
+}
