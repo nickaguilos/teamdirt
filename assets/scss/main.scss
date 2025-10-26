@@ -6,7 +6,7 @@
     padding: 0;
     background-color: #111;   
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     font-family: "JetBrains Mono", monospace;
     position: relative;
     min-height: 100vh;
@@ -36,8 +36,8 @@
         15vw 0,   /* first vertical */
         24vw 0,   /* second vertical */
         82vw 0,   /* third vertical */
-        0 29vh,   /* first horizontal */
-        0 34.5vh,   /* second horizonta */
+        0 25vh,   /* first horizontal */
+        0 30.5vh,   /* second horizonta */
         0 71vh;   /* third horizontal */
     pointer-events: none;
   }
