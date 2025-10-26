@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "This is a no-build static site using Bootstrap Node Proj for fast deployment on GitHub Pages.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,5 +11,10 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.8",
     "sass": "^1.93.2"
+  },
+  "scripts": {
+    "build:css": "sass assets/scss/main.scss assets/css/main.css --no-source-map --style=compressed",
+    "watch:css": "sass --watch assets/scss/main.scss:assets/css/main.css --style=expanded",
+    "start": "npx serve ."
   }
 }

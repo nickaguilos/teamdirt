@@ -1,0 +1,55 @@
+// Team Dirt Main Sass File
+// Oct 26, 2025 >> Nick Aguilos
+
+#teamdirt {
+    margin: 0;
+    padding: 0;
+    background-color: #111;   
+    color: #fff;
+    font-size: 14px;
+    font-family: "JetBrains Mono", monospace;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+      // layout-aligned grid overlay
+  // multi-line layout grid
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+        /* vertical lines */
+        linear-gradient(to right, rgba(255,255,255,0.1) 1px, transparent 1px),
+        linear-gradient(to right, rgba(255,255,255,0.1) 1px, transparent 1px),
+        linear-gradient(to right, rgba(255,255,255,0.1) 1px, transparent 1px),
+
+        /* horizontal lines */
+        linear-gradient(to bottom, rgba(255,255,255,0.1) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,0.1) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255,255,255,0.1) 1px, transparent 1px);
+    
+    background-size: 100% 100%;
+    background-position:
+        15vw 0,   /* first vertical */
+        24vw 0,   /* second vertical */
+        82vw 0,   /* third vertical */
+        0 29vh,   /* first horizontal */
+        0 34.5vh,   /* second horizonta */
+        0 71vh;   /* third horizontal */
+    pointer-events: none;
+  }
+
+  main {
+    width: clamp(300px, 40vw, 500px);
+    position: relative;
+    z-index: 1;
+    text-align: left;
+  }
+
+    #logo {
+        width: 40px;
+    }
+}
