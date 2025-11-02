@@ -1,0 +1,62 @@
+// EV Dash 2025 Main SASS 
+
+body {
+    font-family: 'Archivo', sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+section { 
+    padding: 100px 0; 
+}
+
+.navbar { 
+    background-color: rgba(15,15,15,0.9); 
+}
+
+.hero {
+    min-height: 100vh;
+    background: url('assets/hero-bg.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    h1 { 
+        font-size: 3rem; 
+        font-weight: 800; 
+        letter-spacing: 2px; 
+    }
+}
+
+.btn-register { 
+    background: #e63946; 
+    color: #fff; 
+    font-weight: 600; 
+
+    &:hover { 
+        background: #c92e3d; 
+        color: #fff; 
+    }
+}
+
+.category-card {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 12px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: all .2s ease;
+
+    &:hover { 
+        background-color: #242424; 
+        transform: translateY(-3px); 
+    }
+}
+    
+footer { 
+    background-color: #000; 
+    padding: 40px 0; 
+    font-size: 0.9rem; 
+}
