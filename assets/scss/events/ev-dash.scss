@@ -37,6 +37,11 @@ body {
 	margin: auto;
 }
 
+.content {
+	position: relative;
+	z-index: 2;
+}
+
 // Parallax and icons
 .parallax {
 	position: relative;
@@ -92,6 +97,7 @@ body {
 			top: 12%;
     		right: 3%;
 			width: 100px;
+			z-index: 3;
 		}
 	}
 }

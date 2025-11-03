@@ -24,6 +24,11 @@ body {
   margin: auto;
 }
 
+.content {
+  position: relative;
+  z-index: 2;
+}
+
 .parallax {
   position: relative;
   height: 100vh;
@@ -70,6 +75,7 @@ body {
   top: 12%;
   right: 3%;
   width: 100px;
+  z-index: 3;
 }
 
 #site-head {
