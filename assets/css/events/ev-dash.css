@@ -131,6 +131,13 @@ body {
   background-color: #7c0a02;
 }
 
+#partners #partner-logos img {
+  max-width: 100px;
+}
+#partners #partner-logos img#logo-dirt {
+  max-width: 70px;
+}
+
 footer {
   background-color: #f5e8ca;
   padding: 60px 0 40px;

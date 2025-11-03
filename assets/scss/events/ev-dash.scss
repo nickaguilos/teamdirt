@@ -154,6 +154,19 @@ body {
 .race-card.green { background-color: #1bb36b; }
 .race-card.maroon { background-color: #7c0a02; }
 
+// #partners 
+#partners {
+	#partner-logos {
+		img {
+			max-width: 100px;
+
+			&#logo-dirt {
+				max-width: 70px;
+			}
+		}
+	}
+}
+
 footer {
     background-color: $beige;
     padding: 60px 0 40px;
