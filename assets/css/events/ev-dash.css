@@ -8,8 +8,12 @@ body {
   scroll-behavior: smooth;
 }
 
+#site-head {
+  background: #7c0a02 url("../../../events/ev-dash/images/background-pattern-1.png") no-repeat top center;
+}
+
 .navbar {
-  background-color: #7c0a02;
+  background: transparent;
   padding: 0.5em;
 }
 .navbar .navbar-brand img {
@@ -22,7 +26,6 @@ body {
 }
 
 .hero {
-  background-color: #7c0a02;
   color: #fff;
   text-align: center;
   padding: 160px 20px 120px;

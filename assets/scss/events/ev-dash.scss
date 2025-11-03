@@ -16,8 +16,12 @@ body {
     scroll-behavior: smooth;
 }
 
+#site-head {
+    background: $red url('../../../events/ev-dash/images/background-pattern-1.png') no-repeat top center;
+}
+
 .navbar {
-    background-color: $red;
+    background: transparent;
     padding: 0.5em;
 
     .navbar-brand {
@@ -32,7 +36,6 @@ body {
 }
 
 .hero {
-    background-color: $red;
     color: #fff;
     text-align: center;
     padding: 160px 20px 120px;
