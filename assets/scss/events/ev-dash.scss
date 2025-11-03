@@ -14,14 +14,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Buttons
-
 .btn {
 	font-variation-settings: "wdth" 125, "wght" 500;
 	color: $white !important;
 	border-radius: 100px !important;
 }
 
-
+// Base Decs
 body {
     font-family: "archivo-variable", sans-serif;
 	font-variation-settings: "wdth" 120, "wght" 400;
@@ -33,8 +32,9 @@ body {
     scroll-behavior: smooth;
 }
 
-.row {
+#hero, #details, #info, #register>.container, #partners {
 	max-width: 1000px;
+	margin: auto;
 }
 
 // Parallax and icons
@@ -47,7 +47,7 @@ body {
 	.icon {
 		position: absolute;
 		z-index: 1;
-		max-width: 50px;
+		// max-width: 50px;
 		// transform: translateZ(-1px) scale(0.5);
 		// opacity: 0.7;
 
@@ -55,6 +55,12 @@ body {
 		&.event-white {
 			top: 13%;
     		right: 46%;
+			width: 100px !important;
+		}
+		&.square-event {
+			top: 46%;
+    		right: 0;
+			width: 100px !important;
 		}
 		&.candy-cane {
 			top: 43%;
@@ -65,8 +71,9 @@ body {
     		right: 15%;
 		}
 		&.snowflake-1 {
-			bottom: 18%;
-    		left: 49%;;
+			top: 10%;
+    		left: 5%;
+			width: 70px;
 		}
 	}
 }
@@ -126,11 +133,12 @@ body {
     background-color: $green;
     color: $white;
     border-radius: 40px;
-    max-width: 700px;
+    // max-width: 700px;
 
 	p {
 		max-width: 570px;
 		padding: 0 1em;
+		margin: 1em auto;
 	}
 }
 

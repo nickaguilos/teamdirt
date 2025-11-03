@@ -19,8 +19,9 @@ body {
   scroll-behavior: smooth;
 }
 
-.row {
+#hero, #details, #info, #register > .container, #partners {
   max-width: 1000px;
+  margin: auto;
 }
 
 .parallax {
@@ -30,12 +31,17 @@ body {
 .parallax .icon {
   position: absolute;
   z-index: 1;
-  max-width: 50px;
   /* Randomize positions */
 }
 .parallax .icon.event-white {
   top: 13%;
   right: 46%;
+  width: 100px !important;
+}
+.parallax .icon.square-event {
+  top: 46%;
+  right: 0;
+  width: 100px !important;
 }
 .parallax .icon.candy-cane {
   top: 43%;
@@ -46,8 +52,9 @@ body {
   right: 15%;
 }
 .parallax .icon.snowflake-1 {
-  bottom: 18%;
-  left: 49%;
+  top: 10%;
+  left: 5%;
+  width: 70px;
 }
 
 #site-head {
@@ -92,11 +99,11 @@ body {
   background-color: rgb(30, 145, 84);
   color: #fff;
   border-radius: 40px;
-  max-width: 700px;
 }
 .info-box p {
   max-width: 570px;
   padding: 0 1em;
+  margin: 1em auto;
 }
 
 .race-card {
