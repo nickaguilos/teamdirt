@@ -75,6 +75,24 @@ body {
     		left: 5%;
 			width: 70px;
 		}
+
+		&.snowflake-2 {
+			bottom: 10%;
+    		right: 5%;
+			width: 70px;
+		}
+
+		&.snowflake-3 {
+			bottom: 20%;
+    		left: 12%;
+			width: 100px;
+		}
+
+		&.snowflake-4 {
+			top: 12%;
+    		right: 3%;
+			width: 100px;
+		}
 	}
 }
 

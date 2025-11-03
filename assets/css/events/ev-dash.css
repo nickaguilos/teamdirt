@@ -56,6 +56,21 @@ body {
   left: 5%;
   width: 70px;
 }
+.parallax .icon.snowflake-2 {
+  bottom: 10%;
+  right: 5%;
+  width: 70px;
+}
+.parallax .icon.snowflake-3 {
+  bottom: 20%;
+  left: 12%;
+  width: 100px;
+}
+.parallax .icon.snowflake-4 {
+  top: 12%;
+  right: 3%;
+  width: 100px;
+}
 
 #site-head {
   background: #7c0a02 url("../../../events/ev-dash/images/background-pattern-1.png") no-repeat top center;
