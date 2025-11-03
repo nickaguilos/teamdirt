@@ -1,5 +1,16 @@
+h1, h2, h3, h4, h5, h6 {
+  font-variation-settings: "wdth" 125, "wght" 600;
+}
+
+.btn {
+  font-variation-settings: "wdth" 125, "wght" 500;
+  color: #fff !important;
+  border-radius: 100px !important;
+}
+
 body {
-  font-family: "Archivo", sans-serif;
+  font-family: "archivo-variable", sans-serif;
+  font-variation-settings: "wdth" 120, "wght" 400;
   background-color: #0f0f0f;
   color: #fff;
   scroll-behavior: smooth;
@@ -8,62 +19,88 @@ body {
   scroll-behavior: smooth;
 }
 
-#site-head {
-  background: #7c0a02 url("../../../events/ev-dash/images/background-pattern-1.png") no-repeat top center;
+.row {
+  max-width: 1000px;
 }
 
-.navbar {
+.parallax {
+  position: relative;
+  height: 100vh;
+}
+.parallax .icon {
+  position: absolute;
+  z-index: 1;
+  max-width: 50px;
+  /* Randomize positions */
+}
+.parallax .icon.event-white {
+  top: 13%;
+  right: 46%;
+}
+.parallax .icon.candy-cane {
+  top: 43%;
+  left: 10%;
+}
+.parallax .icon.santa {
+  top: 57%;
+  right: 15%;
+}
+.parallax .icon.snowflake-1 {
+  bottom: 18%;
+  left: 49%;
+}
+
+#site-head {
+  background: #7c0a02 url("../../../events/ev-dash/images/background-pattern-1.png") no-repeat top center;
+  color: #f5e8ca;
+}
+#site-head .navbar {
   background: transparent;
   padding: 0.5em;
 }
-.navbar .navbar-brand img {
+#site-head .navbar .navbar-brand img {
   width: 180px;
 }
-
-.navbar a {
-  color: #fff !important;
+#site-head .navbar a {
   font-weight: 600;
+  color: #f5e8ca;
 }
-
-.hero {
-  color: #fff;
+#site-head .hero {
   text-align: center;
   padding: 160px 20px 120px;
 }
-.hero h1 {
-  font-size: 2rem;
-  font-weight: 800;
-  margin-bottom: 1rem;
-  letter-spacing: 1px;
-}
-
-.btn-register {
-  background-color: #1bb36b;
-  border: none;
-  font-weight: 700;
+#site-head .btn-register {
+  background-color: rgb(30, 145, 84);
   padding: 12px 32px;
 }
-.btn-register:hover {
+#site-head .btn-register:hover {
   background-color: #179a5c;
   color: #fff;
 }
 
-.countdown {
+@media screen and (max-width: 765px) {
+  #details {
+    text-align: center;
+  }
+}
+#details .countdown {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 .info-box {
-  background-color: #0f7b5f;
+  background-color: rgb(30, 145, 84);
   color: #fff;
-  border-radius: 12px;
-  padding: 40px 30px;
-  margin: 40px auto;
+  border-radius: 40px;
   max-width: 700px;
+}
+.info-box p {
+  max-width: 570px;
+  padding: 0 1em;
 }
 
 .race-card {
-  border-radius: 10px;
+  border-radius: 100px;
   padding: 30px 10px;
   color: #fff;
   font-weight: 700;
@@ -73,6 +110,9 @@ body {
   margin: 0;
   font-weight: 500;
   font-size: 0.9rem;
+}
+.race-card p span {
+  font-variation-settings: "wdth" 125;
 }
 
 .race-card.red {

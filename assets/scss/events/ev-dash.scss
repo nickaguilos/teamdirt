@@ -1,89 +1,153 @@
 // EV Dash 2025 Main SASS 
 
+// Variables
 $red: #7c0a02;
-$green: #0f7b5f;
+$green: rgba(30, 145, 84, 1.00);
 $beige: #f5e8ca;
 $dark: #111;
+$white: #fff;
+
+// Type
+h1, h2, h3, h4, h5, h6 {
+	// font-family: "archivo-variable", sans-serif;
+	font-variation-settings: "wdth" 125, "wght" 600;
+}
+
+// Buttons
+
+.btn {
+	font-variation-settings: "wdth" 125, "wght" 500;
+	color: $white !important;
+	border-radius: 100px !important;
+}
 
 
 body {
-    font-family: 'Archivo', sans-serif;
+    font-family: "archivo-variable", sans-serif;
+	font-variation-settings: "wdth" 120, "wght" 400;
     background-color: #0f0f0f;
-    color: #fff;
+    color: $white;
     scroll-behavior: smooth;
     background-color: $beige;
     color: $dark;
     scroll-behavior: smooth;
 }
 
+.row {
+	max-width: 1000px;
+}
+
+// Parallax and icons
+.parallax {
+	position: relative;
+	// overflow: hidden;
+	// perspective: 1px;
+	height: 100vh;
+
+	.icon {
+		position: absolute;
+		z-index: 1;
+		max-width: 50px;
+		// transform: translateZ(-1px) scale(0.5);
+		// opacity: 0.7;
+
+		/* Randomize positions */
+		&.event-white {
+			top: 13%;
+    		right: 46%;
+		}
+		&.candy-cane {
+			top: 43%;
+    		left: 10%;
+		}
+		&.santa {
+			top: 57%;
+    		right: 15%;
+		}
+		&.snowflake-1 {
+			bottom: 18%;
+    		left: 49%;;
+		}
+	}
+}
+
+
+// #site-head
 #site-head {
     background: $red url('../../../events/ev-dash/images/background-pattern-1.png') no-repeat top center;
+	color: $beige;
+
+	.navbar {
+		background: transparent;
+		padding: 0.5em;
+
+		.navbar-brand {
+			img {
+				width: 180px;
+			}
+		}
+	}
+	.navbar a {
+		font-weight: 600;
+		color: $beige;
+	}
+
+	.hero {
+		text-align: center;
+		padding: 160px 20px 120px;
+	}
+
+	.btn-register {
+		background-color: $green;
+		// border: none;
+		padding: 12px 32px;
+
+		&:hover {
+			background-color: #179a5c;
+			color: $white;
+		}
+	}
 }
 
-.navbar {
-    background: transparent;
-    padding: 0.5em;
+// #details 
+#details {
+	@media screen and (max-width: 765px) {
+		text-align: center;
+	}
 
-    .navbar-brand {
-        img {
-            width: 180px;
-        }
-    }
-}
-.navbar a {
-    color: #fff !important;
-    font-weight: 600;
+	.countdown {
+		font-weight: 700;
+		font-size: 3rem;
+	}
 }
 
-.hero {
-    color: #fff;
-    text-align: center;
-    padding: 160px 20px 120px;
-
-    h1 {
-        font-size: 2rem;
-        font-weight: 800;
-        margin-bottom: 1rem;
-        letter-spacing: 1px;
-    }
-}
-
-.btn-register {
-    background-color: #1bb36b;
-    border: none;
-    font-weight: 700;
-    padding: 12px 32px;
-
-    &:hover {
-        background-color: #179a5c;
-        color: #fff;
-    }
-}
-
-.countdown {
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
+// #info
 .info-box {
     background-color: $green;
-    color: #fff;
-    border-radius: 12px;
-    padding: 40px 30px;
-    margin: 40px auto;
+    color: $white;
+    border-radius: 40px;
     max-width: 700px;
+
+	p {
+		max-width: 570px;
+		padding: 0 1em;
+	}
 }
 
 .race-card {
-    border-radius: 10px;
+    border-radius: 100px;
     padding: 30px 10px;
-    color: #fff;
+    color: $white;
     font-weight: 700;
 }
 .race-card p {
     margin: 0;
     font-weight: 500;
     font-size: .9rem;
+
+	span {
+		font-variation-settings: 'wdth' 125;
+	}
 }
 .race-card.red { background-color: #e55b5b; }
 .race-card.navy { background-color: #1e2a4a; }
