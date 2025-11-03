@@ -17,13 +17,13 @@
 <body class="parallax">
 	<!-- Icons -->
 	<div id="icons" >
-		<!-- <img src="images/icon-candy-cane.svg" class="icon candy-cane" alt=""> -->
+		<img src="images/icon-candy-cane.svg" class="icon candy-cane" alt="">
 		<!-- <img src="images/icon-santa.svg" class="icon santa" alt=""> -->
 		<!-- <img src="images/icon-snowflake-1.svg" data-rellax-speed="-3" class="icon snowflake-1" alt=""> -->
 		<img src="images/icon-snowflake-2.svg" data-rellax-speed="-5" class="icon snowflake-2" alt="">
 		<img src="images/icon-snowflake-3.svg" data-rellax-speed="-2" class="icon snowflake-3" alt="">
-		<img src="images/icon-snowflake-4.svg" data-rellax-speed="-5" class="icon snowflake-4" alt="">
-		<!-- <img src="images/icon-event-white.png" class="icon event-white" alt=""> -->
+		<img src="images/icon-snowflake-4.svg" data-rellax-speed="-2" class="icon snowflake-4" alt="">
+		<img src="images/icon-event-white.png" class="icon event-white" alt="">
 		<!-- <img src="images/icon-square-event.png" data-rellax-speed="-3" class="icon square-event" alt=""> -->
 	</div>
 	<div class="content">
@@ -83,6 +83,8 @@
 					<p>
 						Every stride supports local outreach and promotes the beauty of Eastern Visayas through sport and camaraderie.
 					</p>
+
+					<img src="images/icon-santa.svg" class="graphic santa" alt="">
 				</div>
 
 				<div class="py-3">
@@ -155,17 +157,17 @@
 		const targetDate = new Date('2025-12-20T15:00:00+08:00').getTime();
 
 		function updateCountdown() {
-		const now = new Date().getTime();
-		const diff = targetDate - now;
-		if (diff <= 0) {
-			countdownEl.innerHTML = "Event started!";
-			return;
-		}
-		const d = Math.floor(diff / (1000 * 60 * 60 * 24));
-		const h = Math.floor((diff / (1000 * 60 * 60)) % 24);
-		const m = Math.floor((diff / (1000 * 60)) % 60);
-		const s = Math.floor((diff / 1000) % 60);
-		countdownEl.textContent = `${d}D ${h}H ${m}M ${s}S`;
+			const now = new Date().getTime();
+			const diff = targetDate - now;
+			if (diff <= 0) {
+				countdownEl.innerHTML = "Event started!";
+				return;
+			}
+			const d = Math.floor(diff / (1000 * 60 * 60 * 24));
+			const h = Math.floor((diff / (1000 * 60 * 60)) % 24);
+			const m = Math.floor((diff / (1000 * 60)) % 60);
+			const s = Math.floor((diff / 1000) % 60);
+			countdownEl.textContent = `${d}D ${h}H ${m}M ${s}S`;
 		}
 		updateCountdown();
 		setInterval(updateCountdown, 1000);

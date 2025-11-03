@@ -58,8 +58,8 @@ body {
 
 		/* Randomize positions */
 		&.event-white {
-			top: 13%;
-    		right: 46%;
+			bottom: 22%;
+    		right: 0;
 			width: 100px !important;
 		}
 		&.square-event {
@@ -68,12 +68,13 @@ body {
 			width: 100px !important;
 		}
 		&.candy-cane {
-			top: 43%;
-    		left: 10%;
+			bottom: -21%;
+    		left: -5%;
 		}
 		&.santa {
-			top: 57%;
-    		right: 15%;
+			bottom: -50%;
+			right: 15%;
+			width: 75px;
 		}
 		&.snowflake-1 {
 			top: 10%;
@@ -155,6 +156,7 @@ body {
 // #info
 .info-box {
     background-color: $green;
+	position: relative;
     color: $white;
     border-radius: 40px;
     // max-width: 700px;
@@ -163,6 +165,14 @@ body {
 		max-width: 570px;
 		padding: 0 1em;
 		margin: 1em auto;
+	}
+
+	.graphic {
+		position: absolute;
+		bottom: 1em;
+		right: 1em;
+		width: 50px;
+		height: auto;
 	}
 }
 

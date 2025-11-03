@@ -39,8 +39,8 @@ body {
   /* Randomize positions */
 }
 .parallax .icon.event-white {
-  top: 13%;
-  right: 46%;
+  bottom: 22%;
+  right: 0;
   width: 100px !important;
 }
 .parallax .icon.square-event {
@@ -49,12 +49,13 @@ body {
   width: 100px !important;
 }
 .parallax .icon.candy-cane {
-  top: 43%;
-  left: 10%;
+  bottom: -21%;
+  left: -5%;
 }
 .parallax .icon.santa {
-  top: 57%;
+  bottom: -50%;
   right: 15%;
+  width: 75px;
 }
 .parallax .icon.snowflake-1 {
   top: 10%;
@@ -118,6 +119,7 @@ body {
 
 .info-box {
   background-color: rgb(30, 145, 84);
+  position: relative;
   color: #fff;
   border-radius: 40px;
 }
@@ -125,6 +127,13 @@ body {
   max-width: 570px;
   padding: 0 1em;
   margin: 1em auto;
+}
+.info-box .graphic {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  width: 50px;
+  height: auto;
 }
 
 .race-card {
