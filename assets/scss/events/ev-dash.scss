@@ -198,15 +198,38 @@ body {
 
 // #partners 
 #partners {
+    background: $white;
 	#partner-logos {
-		img {
-			max-width: 100px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 1.5rem;
+        justify-items: center;
+        align-items: center;
+        padding-top: 2rem;
+        }
 
-			&#logo-dirt {
-				max-width: 70px;
-			}
-		}
-	}
+        #partner-logos img {
+        max-height: 80px;
+        width: auto;
+        object-fit: contain;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        #partner-logos img:hover {
+        transform: scale(1.05);
+        opacity: 0.9;
+        }
+
+        @media (max-width: 576px) {
+        #partner-logos {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        #partner-logos img {
+            max-height: 60px;
+        }
+    }
 }
 
 footer {

@@ -168,11 +168,35 @@ body {
   background-color: #7c0a02;
 }
 
-#partners #partner-logos img {
-  max-width: 100px;
+#partners {
+  background: #fff;
 }
-#partners #partner-logos img#logo-dirt {
-  max-width: 70px;
+#partners #partner-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+#partners #partner-logos img {
+  max-height: 80px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+#partners #partner-logos img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+@media (max-width: 576px) {
+  #partners #partner-logos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  #partners #partner-logos img {
+    max-height: 60px;
+  }
 }
 
 footer {
