@@ -168,11 +168,14 @@ body {
   background-color: #7c0a02;
 }
 
-#partners {
-  background: #fff;
-}
 #partners img {
   max-width: 400px;
+  margin: auto;
+}
+@media screen and (max-width: 700px) {
+  #partners img {
+    max-width: 250px;
+  }
 }
 #partners #partner-logos {
   display: grid;

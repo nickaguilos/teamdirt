@@ -203,32 +203,37 @@ body {
 
 // #partners 
 #partners {
-    background: $white;
+    // background: $white;
     img {
         max-width: 400px;
+        margin: auto;
+
+        @media screen and (max-width: 700px) {
+            max-width: 250px;
+        }
     }
 	#partner-logos {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 1.5rem;
-        justify-items: center;
-        align-items: center;
-        padding-top: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+            justify-items: center;
+            align-items: center;
+            padding-top: 2rem;
         }
 
-        #partner-logos img {
+    #partner-logos img {
         max-height: 80px;
         width: auto;
         object-fit: contain;
         transition: transform 0.3s ease, opacity 0.3s ease;
-        }
+    }
 
-        #partner-logos img:hover {
+    #partner-logos img:hover {
         transform: scale(1.05);
         opacity: 0.9;
-        }
+    }
 
-        @media (max-width: 576px) {
+    @media (max-width: 576px) {
         #partner-logos {
             grid-template-columns: repeat(2, 1fr);
             gap: 1rem;
