@@ -7,6 +7,11 @@ $beige: #f5e8ca;
 $dark: #111;
 $white: #fff;
 
+// Reset
+// img {
+//     width: 100%;
+// }
+
 // Type
 h1, h2, h3, h4, h5, h6 {
 	// font-family: "archivo-variable", sans-serif;
@@ -199,6 +204,9 @@ body {
 // #partners 
 #partners {
     background: $white;
+    img {
+        max-width: 400px;
+    }
 	#partner-logos {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -230,6 +238,20 @@ body {
             max-height: 60px;
         }
     }
+
+    #partner-logos {
+        // gap: 1em;
+        // display: grid;
+        // grid-template-columns: repeat(2, 1fr);
+
+        #logo-dot { width: 150px; }
+        #logo-dirt { width: 100px; }
+        #logo-evta { width: 200px; }
+        #logo-ev { width: 160px; }
+        #logo-love-ph { width: 180px; }
+    }
+
+    
 }
 
 footer {
