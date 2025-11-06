@@ -65,7 +65,7 @@ body {
 		&.event-white {
 			bottom: 22%;
     		right: 0;
-			width: 100px !important;
+			width: 150px !important;
 		}
 		&.square-event {
 			top: 46%;
@@ -104,6 +104,14 @@ body {
     		right: 3%;
 			width: 100px;
 			z-index: 3;
+		}
+
+		&.snowflake-5 {
+			top: 50%;
+			left: 3%;
+			width: 100px;
+			z-index: 3;
+			width: 70px;
 		}
 	}
 }
@@ -174,10 +182,19 @@ body {
 
 	.graphic {
 		position: absolute;
-		bottom: 1em;
-		right: 1em;
-		width: 50px;
 		height: auto;
+		
+		&:first-of-type {
+			bottom: 1em;
+			right: 1em;
+			width: 50px;
+		}
+
+		&:last-of-type {
+			top: 1em;
+			left: 1em;
+			height: 70px;
+		}
 	}
 }
 
