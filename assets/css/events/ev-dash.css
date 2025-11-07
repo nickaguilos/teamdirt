@@ -192,11 +192,7 @@ body {
   }
 }
 #partners #partner-logos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1.5rem;
-  justify-items: center;
-  align-items: center;
   padding-top: 2rem;
 }
 #partners #partner-logos img {
