@@ -106,7 +106,7 @@ body {
   padding: 160px 20px 120px;
 }
 #site-head .btn-register {
-  background-color: rgb(30, 145, 84);
+  background-color: #1e9154;
   padding: 12px 32px;
 }
 #site-head .btn-register:hover {
@@ -125,7 +125,7 @@ body {
 }
 
 .info-box {
-  background-color: rgb(30, 145, 84);
+  background-color: #1e9154;
   position: relative;
   color: #fff;
   border-radius: 40px;
@@ -160,18 +160,19 @@ body {
 .race-card p {
   margin: 0;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: .9rem;
+  color: #fff;
 }
 .race-card p span {
-  font-variation-settings: "wdth" 125;
+  font-variation-settings: 'wdth' 125;
 }
 
-.race-card.red {
-  background-color: #e55b5b;
+.race-card.blue {
+  background-color: #0287cf;
 }
 
-.race-card.navy {
-  background-color: #1e2a4a;
+.race-card.yellow {
+  background-color: #ffd717;
 }
 
 .race-card.green {
@@ -237,7 +238,7 @@ footer {
 footer img {
   max-height: 60px;
   margin: 0 20px;
-  opacity: 0.9;
+  opacity: .9;
 }
 
 /*# sourceMappingURL=ev-dash.css.map */

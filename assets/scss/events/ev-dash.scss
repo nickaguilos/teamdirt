@@ -208,13 +208,14 @@ body {
     margin: 0;
     font-weight: 500;
     font-size: .9rem;
+	color: #fff;
 
 	span {
 		font-variation-settings: 'wdth' 125;
 	}
 }
-.race-card.red { background-color: #e55b5b; }
-.race-card.navy { background-color: #1e2a4a; }
+.race-card.blue { background-color: #0287cf; }
+.race-card.yellow { background-color: #ffd717; }
 .race-card.green { background-color: #1bb36b; }
 .race-card.maroon { background-color: #7c0a02; }
 
