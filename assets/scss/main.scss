@@ -1,98 +1,19 @@
 // Team Dirt Main Sass File
 // Oct 26, 2025 >> Nick Aguilos
 
-#teamdirt {
-    margin: 0;
-    padding: 0;
-    background-color: #FFF;   
-    color: #111;
-    font-size: 16px;
-    // font-family: "JetBrains Mono", monospace;
-	font-family: Inter, sans-serif;
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	display: grid;
-	grid-template: repeat(4, 1fr);
-	
+// Run Sass 1.62.x for lower end support and no dep warnings
 
-	// layout-aligned grid overlay
-  	// multi-line layout grid
-  	&::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image:
-        /* vertical lines */
-        linear-gradient(to right, rgba(165, 165, 165, 0.1) 1px, transparent 1px),
-        linear-gradient(to right,  rgba(165, 165, 165, 0.1)1px, transparent 1px),
-        linear-gradient(to right,  rgba(165, 165, 165, 0.1)1px, transparent 1px),
+// Bootstrap SCSS
+@use "bootstrap" with (
+	$enable-grid-classes: false,
+	$enable-cssgrid: true
+);
 
-        /* horizontal lines */
-        linear-gradient(to bottom,  rgba(165, 165, 165, 0.1)1px, transparent 1px),
-        linear-gradient(to bottom,  rgba(165, 165, 165, 0.1)1px, transparent 1px),
-        linear-gradient(to bottom,  rgba(165, 165, 165, 0.1)1px, transparent 1px);
-    
-    background-size: 100% 100%;
-    background-position:
-        15vw 0,   /* first vertical */
-        24vw 0,   /* second vertical */
-        82vw 0,   /* third vertical */
-        0 25vh,   /* first horizontal */
-        0 30.5vh,   /* second horizonta */
-        0 71vh;   /* third horizontal */
-    pointer-events: none;
-  	}
+@use "includes/overrides";
+@use "includes/typography";
+@use "includes/site-head";
+@use "includes/site-body";
+@use "includes/site-footer";
 
-	.mono {
-		font-family: 'JetBrains Mono', monospace;
-	}
-
-	#site-head {
-
-	}
-
-	main {
-		width: clamp(300px, 40vw, 500px);
-		position: relative;
-		z-index: 1;
-		text-align: left;
-	}
-
-    #logo {
-        width: 40px;
-    }
-
-  //Page Spec
-  	&.blog {
-		// font-size: 18px;
-		font-family: Inter, sans-serif;
-		padding: 1em;
-		
-		&::before {
-			background: none;
-		}
-
-		#blog-heading {
-			text-align: center;
-			margin: 2em 0;
-
-			h1 {
-				font-size: 40px;
-				font-weight: 800;
-			}
-		}
-		
-		p {
-			font-family: "Source Serif 4", serif;
-			// font-family: Inter, sans-serif;
-			line-height: 1.5em;
-			font-size: 20px;
-		}
-		main {
-			width: 800px;
-		}
-  	}
-}
+@use "includes/pages/home";
+@use "includes/pages/blog";

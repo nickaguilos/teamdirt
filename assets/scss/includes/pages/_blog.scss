@@ -1,0 +1,15 @@
+#blog.teamdirt {
+	&::before {
+		background: none;
+	}
+
+	&.article {
+		#site-body {
+			grid-column: 2 / 6;
+		}
+
+		.hero-wrapper {
+			margin: 2em -7em;
+		}
+	}
+}

@@ -10,11 +10,14 @@
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.8",
-    "sass": "^1.93.2"
+    "bootstrap-icons": "^1.13.1"
   },
   "scripts": {
-    "build:css": "sass assets/scss:assets/css --no-source-map --style=compressed",
-    "watch:css": "sass --watch assets/scss:assets/css --style=expanded",
+    "build:css": "sass assets/scss:assets/css --no-source-map --load-path=node_modules/bootstrap/scss --style=compressed",
+    "watch:css": "sass --watch assets/scss:assets/css --load-path=node_modules/bootstrap/scss --style=expanded",
     "start": "npx serve ."
+  },
+  "devDependencies": {
+    "sass": "^1.62.0"
   }
 }

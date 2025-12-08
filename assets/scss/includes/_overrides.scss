@@ -1,0 +1,72 @@
+// Override declarations
+
+//Type
+
+.teamdirt {
+	--bs-columns: 6;
+
+	// layout-aligned grid overlay
+  	// multi-line layout grid
+  	&::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image:
+        /* vertical lines */
+        linear-gradient(to right, #dee2e6 1px, transparent 1px),
+        linear-gradient(to right, #dee2e6 1px, transparent 1px);
+    
+    background-size: 100% 100%;
+    background-position:
+        15vw 0,   /* first vertical */
+        82vw 0;   /* third vertical */
+        // 0 25vh,   /* first horizontal */
+        // 0 30.5vh,   /* second horizonta */
+        // 0 71vh;   /* third horizontal */
+    pointer-events: none;
+  	}
+
+	&.grid {
+		grid-template-areas: 
+			"head head head head head head"
+			"body body body body body body"
+			"foot foot foot foot foot foot"
+		;
+
+		// Responsive 
+		// @media screen and 
+	}
+
+
+
+  //Page Spec
+  	&.blog {
+		// font-size: 18px;
+		font-family: Inter, sans-serif;
+		padding: 1em;
+		
+		&::before {
+			background: none;
+		}
+
+		#blog-heading {
+			text-align: center;
+			margin: 2em 0;
+
+			h1 {
+				font-size: 40px;
+				font-weight: 800;
+			}
+		}
+		
+		p {
+			font-family: "Source Serif 4", serif;
+			// font-family: Inter, sans-serif;
+			line-height: 1.5em;
+			font-size: 20px;
+		}
+		main {
+			width: 800px;
+		}
+  	}
+}
