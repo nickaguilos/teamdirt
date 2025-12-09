@@ -11280,6 +11280,14 @@ figcaption {
 
 #site-footer {
   grid-area: foot;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2em;
+}
+@media screen and (max-width: 1000px) {
+  #site-footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 #home.teamdirt #nameplate {
@@ -11290,11 +11298,15 @@ figcaption {
 #blog.teamdirt::before {
   background: none;
 }
-#blog.teamdirt.article #site-body {
-  grid-column: 2/6;
+@media screen and (min-width: 1000px) {
+  #blog.teamdirt.article #site-body {
+    grid-column: 2/6;
+  }
 }
-#blog.teamdirt.article .hero-wrapper {
-  margin: 2em -7em;
+@media screen and (min-width: 1000px) {
+  #blog.teamdirt.article .hero-wrapper {
+    margin: 2em -7em;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
