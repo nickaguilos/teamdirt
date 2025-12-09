@@ -6,7 +6,8 @@
 // Bootstrap SCSS
 @use "bootstrap" with (
 	$enable-grid-classes: false,
-	$enable-cssgrid: true
+	$enable-cssgrid: true,
+	$carousel-control-opacity: 1,
 );
 
 @use "includes/overrides";

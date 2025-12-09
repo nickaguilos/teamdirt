@@ -5387,7 +5387,7 @@ textarea.form-control-lg {
   background: none;
   filter: var(--bs-carousel-control-icon-filter);
   border: 0;
-  opacity: 0.5;
+  opacity: 1;
   transition: opacity 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -11221,15 +11221,7 @@ textarea.form-control-lg {
 }
 .teamdirt {
   --bs-columns: 6;
-}
-.teamdirt::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: linear-gradient(to right, #dee2e6 1px, transparent 1px), linear-gradient(to right, #dee2e6 1px, transparent 1px);
-  background-size: 100% 100%;
-  background-position: 15vw 0, 82vw 0; /* third vertical */
-  pointer-events: none;
+  max-width: 1200px;
 }
 .teamdirt.grid {
   grid-template-areas: "head head head head head head" "body body body body body body" "foot foot foot foot foot foot";
@@ -11262,6 +11254,11 @@ textarea.form-control-lg {
   font-family: "JetBrains Mono", monospace;
 }
 
+figcaption {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 13px;
+}
+
 #site-head {
   grid-area: head;
 }
@@ -11282,6 +11279,7 @@ textarea.form-control-lg {
 
 #site-footer {
   grid-area: foot;
+  text-align: center;
 }
 
 #home.teamdirt #nameplate {

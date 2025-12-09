@@ -5,26 +5,28 @@
 .teamdirt {
 	--bs-columns: 6;
 
+	max-width: 1200px;
+
 	// layout-aligned grid overlay
   	// multi-line layout grid
-  	&::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image:
-        /* vertical lines */
-        linear-gradient(to right, #dee2e6 1px, transparent 1px),
-        linear-gradient(to right, #dee2e6 1px, transparent 1px);
+  	// &::before {
+    // content: "";
+    // position: absolute;
+    // inset: 0;
+    // background-image:
+    //     /* vertical lines */
+    //     linear-gradient(to right, #dee2e6 1px, transparent 1px),
+    //     linear-gradient(to right, #dee2e6 1px, transparent 1px);
     
-    background-size: 100% 100%;
-    background-position:
-        15vw 0,   /* first vertical */
-        82vw 0;   /* third vertical */
-        // 0 25vh,   /* first horizontal */
-        // 0 30.5vh,   /* second horizonta */
-        // 0 71vh;   /* third horizontal */
-    pointer-events: none;
-  	}
+    // background-size: 100% 100%;
+    // background-position:
+    //     15vw 0,   /* first vertical */
+    //     82vw 0;   /* third vertical */
+    //     // 0 25vh,   /* first horizontal */
+    //     // 0 30.5vh,   /* second horizonta */
+    //     // 0 71vh;   /* third horizontal */
+    // pointer-events: none;
+  	// }
 
 	&.grid {
 		grid-template-areas: 
