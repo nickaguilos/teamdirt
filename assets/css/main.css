@@ -11227,6 +11227,11 @@ textarea.form-control-lg {
 .teamdirt.grid {
   grid-template-areas: "head head head head head head" "body body body body body body" "foot foot foot foot foot foot";
 }
+.teamdirt .btn-primary {
+  background-color: rgb(255, 190, 0);
+  border-color: rgb(255, 190, 0);
+  color: #111;
+}
 .teamdirt.blog {
   font-family: Inter, sans-serif;
   padding: 1em;
