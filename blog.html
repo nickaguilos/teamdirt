@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Team Dirt // Home</title>
+	<title>Team Dirt // Blog</title>
 
 	<link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" sizes="any">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,9 +13,13 @@
 	<link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
-<body id="home" class="teamdirt grid">
-	<header id="site-head" class="d-flex justify-content-between align-items-center border-bottom p-4">
-		<img src="./assets/img/logo-dirt-racing-logo-black.png" id="logo" alt="Team Dirt Logo">
+<body id="home" class="teamdirt grid p-4 m-auto">
+	
+	<!-- Site Header -->
+	<header id="site-head" class="d-flex justify-content-between align-items-center border-bottom p-lg-4">
+		<a href="/index.html">
+			<img src="/assets/img/logo-dirt-racing-logo-black.png" id="logo" alt="Team Dirt Logo">
+		</a>
 
 		<nav id="site-nav">
 			<a href="index.html">Home</a>
@@ -23,8 +27,56 @@
 			<a href="events.html">Events</a>
 		</nav>
 	</header>
-	<main id="site-body">
-		blog
+	<main id="site-body" class="p-3">
+		<h1>Blog</h1>
+
+		<div class="blog-roll w-75">
+			<article class="mb-5">
+				<h3 class="fw-bold">
+					<a href="/blog/race-report/2025/la-routa-race-report.html">Race Report: La Routa Adventure Race 2025</a>
+				</h3>
+				<p>
+					For years we chased the chance to put Team Dirt on the international stage. Being Filipino athletes in a gear- and time-intensive sport like adventure racing comes with extra hurdles — funding, logistics, experience — but we kept pushing.
+				</p>
+			</article>
+
+			<article class="mb-5">
+				<h3 class="fw-bold">
+					<a href="/blog/2026/eleven-north-orienteering.html">Update: 11°North Orienteering Championships 2026</a>
+				</h3>
+				<p>
+					In recent years, many races have leaned heavily toward speed, fitness, or familiarity with terrain. At 11° North, we want to slow things down just enough to reward teams who can think clearly while moving fast—teams who can read a map under pressure, make good decisions when tired, and work together when the terrain roughens up.
+				</p>
+			</article>
+		</div>
 	</main>
+
+	<footer id="site-footer" class="border-top pt-5 pb-5">
+		<div>
+			Copyright &copy; 2025 Team Dirt. <br>All Rights Reserved <br>
+			<mark class="mono">#WEAREDIRT</mark>
+		</div>
+
+		<ul class="list-unstyled">
+			<strong>Primary Sponsors</strong>
+			<li><a href="https://facebook.com/pitmanoutdoors">Pitman Outdoors</a></li>
+			<li><a href="https://facebook.com/roxphils">ROX Philippines</a></li>
+			<li><a href="https://www.facebook.com/profile.php?id=100067569400433">Tita Ting's Turmeric</a></li>
+		</ul>
+
+		<ul class="list-unstyled">
+			<strong>Secondary Sponsors</strong>
+			<li><a href="https://facebook.com/bukidoutdoorshop">Bukid Outdoor Shop</a></li>
+			<li><a href="https://facebook.com/aguilosservices">Aguilos Services</a></li>
+			<li><a href="https://www.autodeal.com.ph">AutoDeal.com.ph</a></li>
+			<li><a href="https://www.facebook.com/jedinutrition/">The Farmacy</a></li>
+		</ul>
+
+		<ul class="list-unstyled">
+			<strong>Our Socials</strong>
+			<li><a href="https://facebook.com/teamdirt.ph">Facebook</a></li>
+			<li><a href="https://instagram.com/teamdirt.ph">Instagram</a></li>
+		</ul>
+	</footer>
 </body>
 </html>

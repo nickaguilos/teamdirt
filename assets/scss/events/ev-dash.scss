@@ -4,13 +4,13 @@
 $red: #7c0a02;
 $green: rgba(30, 145, 84, 1.00);
 $beige: #f5e8ca;
-$dark: #111;
+$dark: #06213e;
 $white: #fff;
+$light-purple: #cba8ce;
+$pink: #ed127e;
+$peach: #f36e63;
+$purple: #773293;
 
-// Reset
-// img {
-//     width: 100%;
-// }
 
 // Type
 h1, h2, h3, h4, h5, h6 {
@@ -29,10 +29,9 @@ h1, h2, h3, h4, h5, h6 {
 body {
     font-family: "archivo-variable", sans-serif;
 	font-variation-settings: "wdth" 120, "wght" 400;
-    background-color: #0f0f0f;
-    color: $white;
+    background-color: $light-purple;
+    color: $dark;
     scroll-behavior: smooth;
-    background-color: $beige;
     color: $dark;
     scroll-behavior: smooth;
 }
@@ -119,8 +118,6 @@ body {
 
 // #site-head
 #site-head {
-    background: $red url('../../../events/ev-dash/images/background-pattern-1.png') no-repeat top center;
-	color: $beige;
 
 	.navbar {
 		background: transparent;
@@ -128,13 +125,13 @@ body {
 
 		.navbar-brand {
 			img {
-				width: 180px;
+				width: 250px;
 			}
 		}
 	}
 	.navbar a {
 		font-weight: 600;
-		color: $beige;
+		color: $dark;
 	}
 
 	.hero {
@@ -143,12 +140,12 @@ body {
 	}
 
 	.btn-register {
-		background-color: $green;
+		background-color: $pink;
 		// border: none;
 		padding: 12px 32px;
 
 		&:hover {
-			background-color: #179a5c;
+			background-color: $pink;
 			color: $white;
 		}
 	}
@@ -162,13 +159,13 @@ body {
 
 	.countdown {
 		font-weight: 700;
-		font-size: 3rem;
+		font-size: 4rem;
 	}
 }
 
 // #info
 .info-box {
-    background-color: $green;
+    background-color: $peach;
 	position: relative;
     color: $white;
     border-radius: 40px;
@@ -185,9 +182,8 @@ body {
 		height: auto;
 		
 		&:first-of-type {
-			bottom: 1em;
-			right: 1em;
-			width: 50px;
+			bottom: 1.5em;
+			right: 1.5em;
 		}
 
 		&:last-of-type {
@@ -214,10 +210,10 @@ body {
 		font-variation-settings: 'wdth' 125;
 	}
 }
-.race-card.blue { background-color: #0287cf; }
-.race-card.yellow { background-color: #ffd717; }
-.race-card.green { background-color: #1bb36b; }
-.race-card.maroon { background-color: #7c0a02; }
+.race-card.blue { background-color: $peach; }
+.race-card.yellow { background-color: $pink; }
+.race-card.green { background-color: $dark; }
+.race-card.maroon { background-color: $red; }
 
 // #partners 
 #partners {

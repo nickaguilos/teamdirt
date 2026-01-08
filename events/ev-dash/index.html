@@ -15,25 +15,14 @@
 </head>
 
 <body class="parallax">
-	<!-- Icons -->
-	<div id="icons" >
-		<!-- <img src="images/icon-santa.svg" class="icon santa" alt=""> -->
-		<!-- <img src="images/icon-snowflake-1.svg" data-rellax-speed="-3" class="icon snowflake-1" alt=""> -->
-		<img src="images/icon-snowflake-2.svg" data-rellax-speed="-5" class="icon snowflake-2" alt="">
-		<img src="images/icon-snowflake-3.svg" data-rellax-speed="-2" class="icon snowflake-3" alt="">
-		<img src="images/icon-snowflake-4.svg" data-rellax-speed="-2" class="icon snowflake-4" alt="">
-		<img src="images/icon-snowflake-2.svg" data-rellax-speed="-2" class="icon snowflake-5" alt="">
-		<img src="images/icon-event-white.png" class="icon event-white" alt="">
-		<!-- <img src="images/icon-square-event.png" data-rellax-speed="-3" class="icon square-event" alt=""> -->
-	</div>
-	<div class="content">
+	<div class="content p-3">
 		<!-- Head / Hero -->
 		<header id="site-head">
 			<!-- Navbar -->
 			<nav class="navbar navbar-expand-lg">
 				<div class="container">
 					<a class="navbar-brand fw-bold" href="#">
-						<img src="images/text-logo.png" alt="Infinite Escapes">
+						<img src="images/logo-event.png" alt="Infinite Escapes">
 					</a>
 					
 					<a href="#" class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -52,11 +41,13 @@
 			<!-- Hero -->
 			<section class="hero" id="hero">
 				<div class="container">
-					<h1>Join the run that gives back — every step helps equip vulnerable tourism communities with Go Bags</h1>
+					<h1 class="fw-bold">Join the run that gives back — every step helps equip vulnerable tourism communities with Go Bags</h1>
 					<a href="https://tinyurl.com/holidaydash-register" class="btn btn-register btn-lg rounded mt-4">Register Now</a>
 				</div>
 			</section>
 		</header>
+
+		<img src="images/pattern-peach.png" alt="" class="w-100">
 
 		<!-- Race Details / Countdown -->
 		<section id="details" class="pt-5">
@@ -77,15 +68,14 @@
 			<div class="container">
 				<div class="info-box p-5 fs-5 mb-4">
 					<p>
-						The Holiday Dash for a Purpose brings runners, families, and communities together this Christmas season.
+						The Infinite Strides Eastern Visayas Dash Run For A Purpose brings runners, families, and communities together.
 					</p>
 
 					<p>
 						Every stride supports local outreach and promotes the beauty of Eastern Visayas through sport and camaraderie.
 					</p>
 
-					<img src="images/icon-santa.svg" class="graphic santa" alt="">
-					<img src="images/icon-candy-cane.svg" class="graphic candy-cane" alt="">
+					<img src="images/icon-event-white.png" class="graphic santa" alt="">
 				</div>
 
 				<div class="py-3">
@@ -216,7 +206,7 @@
 		new Rellax('.icon');
 		// Countdown timer to Dec 20 2025 3 PM GMT+8
 		const countdownEl = document.getElementById('countdown');
-		const targetDate = new Date('2026-01-10T15:00:00+08:00').getTime();
+		const targetDate = new Date('2026-02-15T15:00:00+08:00').getTime();
 
 		function updateCountdown() {
 			const now = new Date().getTime();
