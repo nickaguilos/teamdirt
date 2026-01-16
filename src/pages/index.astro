@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "Team Dirt // Endurance Team From Eastern Visayas"
+---
+
+<BaseLayout 
+	pageTitle = {pageTitle} ,
+	bodyId = "home",
+	bodyClass="teamdirt grid p-4 m-auto"
+>
+
+	<div id="nameplate">
+		<h1>{pageTitle}</h1>
+		<p>
+			Team Dirt is an adventure racing and outdoor endurance team from Eastern Visayas.
+		</p>
+
+		<p>
+			We race, explore, and build events that bring people outdoors — from mountain trails to coastal towns — carrying the same spirit of teamwork, movement, and discovery wherever we go.
+		</p>
+
+		<p>
+			We train together, compete across the country and beyond, and create opportunities for others to experience the same wild joy of being out there.
+		</p>
+
+		<span class="mono">#WEAREDIRT</span>
+	</div>
+
+</BaseLayout>

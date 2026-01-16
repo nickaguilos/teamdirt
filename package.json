@@ -1,23 +1,24 @@
 {
   "name": "teamdirt",
   "version": "1.0.0",
-  "description": "This is a no-build static site using Bootstrap Node Proj for fast deployment on GitHub Pages.",
-  "main": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1"
   },
   "scripts": {
-    "build:css": "sass assets/scss:assets/css --no-source-map --load-path=node_modules/bootstrap/scss --style=compressed",
-    "watch:css": "sass --watch assets/scss:assets/css --load-path=node_modules/bootstrap/scss --style=expanded",
-    "start": "npx serve ."
+    "build:css": "sass assets/scss:public/assets/css --no-source-map --load-path=node_modules/bootstrap/scss --style=compressed",
+    "watch:css": "sass --watch assets/scss:public/assets/css --load-path=node_modules/bootstrap/scss --style=expanded",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "devDependencies": {
-    "sass": "^1.62.0"
+    "sass": "^1.62.0",
+    "astro": "^5.16.10"
   }
 }

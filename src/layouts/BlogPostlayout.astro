@@ -1,0 +1,19 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+const { frontmatter } = Astro.props;
+---
+
+<BaseLayout
+    pageTitle = {frontmatter.title},
+    bodyId = "blog",
+    bodyClass = "teamdirt article grid p-4 m-auto my-4 border"
+>
+    <header id="blog-heading" class="text-center">
+        <h1>
+            <mark class="mono mb-2 d-inline-block">{frontmatter.category}:</mark><br> <span class="fw-bold">{frontmatter.title}</span>
+        </h1>
+
+        <h2 class="h5 mb-4 text-secondary">Reported by {frontmatter.author}, {frontmatter.position} for Team Dirt on <span>{frontmatter.date}</span> <br>{frontmatter.supportcopy}</h2>
+    </header>
+    <slot />
+</BaseLayout>
