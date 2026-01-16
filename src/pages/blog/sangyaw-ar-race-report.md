@@ -69,3 +69,8 @@ The final push? A quick sack race toward Tacloban Youth Center and finally, the 
 Brutal—Sangyaw 2025 tested us across all aspects of adventure racing. It’s a more compressed version of La Routa in terms of intensity, and proof of how far the local scene in Eastern Visayas has come.
 
 We crossed the finish line in 25 hours flat.
+
+## Team Dirt is sponsored by the following brands:
+<div class="img-wrapper mt-5 mb-5">
+    <img src="/assets/img/sponsors.png" alt="" class="img-fluid w-100" loading="lazy">
+</div>

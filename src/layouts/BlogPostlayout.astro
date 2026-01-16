@@ -15,5 +15,9 @@ const { frontmatter } = Astro.props;
 
         <h2 class="h5 mb-4 text-secondary">Reported by {frontmatter.author}, {frontmatter.position} for Team Dirt on <span>{frontmatter.date}</span> <br>{frontmatter.supportcopy}</h2>
     </header>
+
+    <div class="hero-wrapper">
+        <img src={frontmatter.heroImg} class="img-fluid" alt="Hero Image">
+    </div>
     <slot />
 </BaseLayout>
