@@ -1,6 +1,12 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
 const { frontmatter } = Astro.props;
+
+const formattedDate = new Intl.DateTimeFormat("en-US", {
+  month: "long",
+  day: "2-digit",
+  year: "numeric"
+}).format(new Date(frontmatter.date));
 ---
 
 <BaseLayout
@@ -13,7 +19,7 @@ const { frontmatter } = Astro.props;
             <mark class="mono mb-2 d-inline-block">{frontmatter.category}:</mark><br> <span class="fw-bold">{frontmatter.title}</span>
         </h1>
 
-        <h2 class="h5 mb-4 text-secondary">Reported by {frontmatter.author}, {frontmatter.position} for Team Dirt on <span>{frontmatter.date}</span> <br>{frontmatter.supportcopy}</h2>
+        <h2 class="h5 mb-4 text-secondary">Reported by {frontmatter.author}, {frontmatter.position} for Team Dirt on <span>{formattedDate}</span> <br>{frontmatter.supportcopy}</h2>
     </header>
 
     <div class="hero-wrapper">

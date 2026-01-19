@@ -190,14 +190,15 @@ Race officials may conduct random gear checks at any point during the event
 
 ### 9. Registration
 
-    Registrations are now open! <strong>Early bird rate is set at P3000</strong> from now until February 1, 2026
+Registrations are now open! <strong>Early bird rate is set at P3000</strong> from now until February 1, 2026
 
-    <strong>Regular rate is at P3800</strong> until registration closes on March 10, 2026
+<strong>Regular rate is at P3800</strong> until registration closes on March 10, 2026
 
 
 <a href="https://forms.fillout.com/t/vneeSmxxyWus?fbclid=IwY2xjawPK6LRleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEet4zFT3J39c-w5bzJw6jQK7qwqRZYTOZ3FOxwZB5lYt1szU3dH9QhuXsbvx4_aem_UQbFzia_hCUyeazteP9eKQ" class="btn btn-primary">Register Now</a>
-</section>
 
 ***
+
 <h4 class="mono h1">#WEAREDIRT</h4>
+
 ***
