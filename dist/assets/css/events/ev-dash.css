@@ -1,0 +1,237 @@
+h1, h2, h3, h4, h5, h6 {
+  font-variation-settings: "wdth" 125, "wght" 600;
+}
+
+.btn {
+  font-variation-settings: "wdth" 125, "wght" 500;
+  color: #fff !important;
+  border-radius: 100px !important;
+}
+
+body {
+  font-family: "archivo-variable", sans-serif;
+  font-variation-settings: "wdth" 120, "wght" 400;
+  background-color: #cba8ce;
+  color: #06213e;
+  scroll-behavior: smooth;
+  color: #06213e;
+  scroll-behavior: smooth;
+}
+
+#hero, #details, #info, #register > .container, #partners {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+.parallax {
+  position: relative;
+  height: 100vh;
+}
+.parallax .icon {
+  position: absolute;
+  z-index: 1;
+  /* Randomize positions */
+}
+.parallax .icon.event-white {
+  bottom: 22%;
+  right: 0;
+  width: 150px !important;
+}
+.parallax .icon.square-event {
+  top: 46%;
+  right: 0;
+  width: 100px !important;
+}
+.parallax .icon.candy-cane {
+  bottom: -21%;
+  left: -5%;
+}
+.parallax .icon.santa {
+  bottom: -50%;
+  right: 15%;
+  width: 75px;
+}
+.parallax .icon.snowflake-1 {
+  top: 10%;
+  left: 5%;
+  width: 70px;
+}
+.parallax .icon.snowflake-2 {
+  bottom: 10%;
+  right: 5%;
+  width: 70px;
+}
+.parallax .icon.snowflake-3 {
+  bottom: 20%;
+  left: 12%;
+  width: 100px;
+}
+.parallax .icon.snowflake-4 {
+  top: 12%;
+  right: 3%;
+  width: 100px;
+  z-index: 3;
+}
+.parallax .icon.snowflake-5 {
+  top: 50%;
+  left: 3%;
+  width: 100px;
+  z-index: 3;
+  width: 70px;
+}
+
+#site-head .navbar {
+  background: transparent;
+  padding: 0.5em;
+}
+#site-head .navbar .navbar-brand img {
+  width: 250px;
+}
+#site-head .navbar a {
+  font-weight: 600;
+  color: #06213e;
+}
+#site-head .hero {
+  text-align: center;
+  padding: 160px 20px 120px;
+}
+#site-head .btn-register {
+  background-color: #ed127e;
+  padding: 12px 32px;
+}
+#site-head .btn-register:hover {
+  background-color: #ed127e;
+  color: #fff;
+}
+
+@media screen and (max-width: 765px) {
+  #details {
+    text-align: center;
+  }
+}
+#details .countdown {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.info-box {
+  background-color: #f36e63;
+  position: relative;
+  color: #fff;
+  border-radius: 40px;
+}
+.info-box p {
+  max-width: 570px;
+  padding: 0 1em;
+  margin: 1em auto;
+}
+.info-box .graphic {
+  position: absolute;
+  height: auto;
+}
+.info-box .graphic:first-of-type {
+  bottom: 1.5em;
+  right: 1.5em;
+}
+.info-box .graphic:last-of-type {
+  top: 1em;
+  left: 1em;
+  height: 70px;
+}
+
+.race-card {
+  border-radius: 100px;
+  padding: 30px 10px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.race-card p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #fff;
+}
+.race-card p span {
+  font-variation-settings: "wdth" 125;
+}
+
+.race-card.blue {
+  background-color: #f36e63;
+}
+
+.race-card.yellow {
+  background-color: #ed127e;
+}
+
+.race-card.green {
+  background-color: #06213e;
+}
+
+.race-card.maroon {
+  background-color: #7c0a02;
+}
+
+#partners img {
+  max-width: 400px;
+  margin: auto;
+}
+@media screen and (max-width: 700px) {
+  #partners img {
+    max-width: 250px;
+  }
+}
+#partners #partner-logos {
+  gap: 1.5rem;
+  padding-top: 2rem;
+}
+#partners #partner-logos img {
+  max-height: 80px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+#partners #partner-logos img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+@media (max-width: 576px) {
+  #partners #partner-logos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  #partners #partner-logos img {
+    max-height: 60px;
+  }
+}
+#partners #partner-logos #logo-dot {
+  width: 150px;
+}
+#partners #partner-logos #logo-dirt {
+  width: 100px;
+}
+#partners #partner-logos #logo-evta {
+  width: 200px;
+}
+#partners #partner-logos #logo-ev {
+  width: 160px;
+}
+#partners #partner-logos #logo-love-ph {
+  width: 180px;
+}
+
+footer {
+  padding: 60px 0 40px;
+}
+footer img {
+  max-height: 60px;
+  margin: 0 20px;
+  opacity: 0.9;
+}
+
+/*# sourceMappingURL=ev-dash.css.map */
