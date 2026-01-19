@@ -1,3 +1,4 @@
 export default {
-  site: 'https://teamdirt.ph',
+    site: 'https://teamdirt.ph',
+    outDir: './docs',
 };
