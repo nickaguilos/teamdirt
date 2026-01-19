@@ -42,8 +42,8 @@ From TA1 we sprinted to the Naval port for a paddle. Two bancas took us out to D
         <img src="/assets/img/blog/2025-la-routa/map.jpg" alt="Image of Team Dirt's La Routa Map" class="img-fluid w-100">
     </a>
     
-    <figcaption class="text-secondary text-center mt-2">Team Dirt Estimated Tracks and CP plots</figcaption>
-    <a href="/assets/img/blog/2025-la-routa/map.jpg" target="">View Larger Image</a>
+<figcaption class="text-secondary text-center mt-2">Team Dirt Estimated Tracks and CP plots</figcaption>
+<a href="/assets/img/blog/2025-la-routa/map.jpg" target="">View Larger Image</a>
 </div>
 
 ### CP2 (Talahid Beach Resort) — Swim
