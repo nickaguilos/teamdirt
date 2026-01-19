@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "Events";
+---
+
+<BaseLayout
+    pageTitle = {pageTitle},
+    bodyId = "events",
+    bodyClass = "teamdirt grid p-4 m-auto",
+    mainClass = "p-3"
+>
+
+    <h1>{pageTitle}</h1>
+
+    <div class="event-roll w-75">
+        <article class="mb-5">
+            <h3 class="fw-bold">
+                <a href="/events/ev-dash/index.html">Infinite Strides Eastern Visayas Dash - Run For A Purpose</a>
+            </h3>
+            <p>
+                The Infinite Strides Eastern Visayas Dash Run For A Purpose brings runners, families, and communities together.
+            </p>
+        </article>
+    </div>
+
+</BaseLayout>
