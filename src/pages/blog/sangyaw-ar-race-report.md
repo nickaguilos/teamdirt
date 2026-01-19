@@ -3,6 +3,7 @@ layout: "../../layouts/BlogPostLayout.astro"
 title: "Sangyaw Adventure Race 2025"
 date: 2025-06-01
 category: "Race Report"
+heroImg: "/assets/img/blog/2025-sangyaw/1.jpg"
 author: "Nick Aguilos"
 position: "Navigator"
 excerpt: "Sangyaw Adventure Race has become a fixture of Tacloban City’s fiesta season."
