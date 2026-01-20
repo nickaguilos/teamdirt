@@ -7,7 +7,6 @@ category: "Events"
 author: "Juan Nowan"
 position: "Writer"
 excerpt: "The 11° North Orienteering Championships was built around a simple idea: navigation matters."
-supportcopy: "All photographs used with permission from Rodney Cabrera"
 ---
 
 <p class="lead">
