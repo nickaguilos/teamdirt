@@ -6,7 +6,7 @@ heroImg: "/assets/img/blog/2025-samboan/1.jpg"
 category: "Race Report"
 author: "Nick Aguilos"
 position: "Navigator"
-excerpt: "For years we chased the chance to put Team Dirt on the international stage. Being Filipino athletes in a gear- and time-intensive sport like adventure racing comes with extra hurdles — funding, logistics, experience — but we kept pushing."
+excerpt: "This race almost didn’t happen for us."
 ---
 
 <p class="lead">
