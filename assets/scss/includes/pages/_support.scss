@@ -1,0 +1,30 @@
+#support.teamdirt {
+    .img-wrapper {
+        margin-left: -24px;
+        margin-right: -24px;
+    }
+
+    .logo-track {
+        width: max-content;
+        animation: scroll-logos 25s linear infinite;
+        
+        img {
+            max-height: 100px;
+            max-width: 150px;
+            filter: grayscale(100%);
+            opacity: 0.8;
+            display: block;
+            margin: 1em;
+        }
+    }
+
+    @keyframes scroll-logos {
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(-50%);
+        }
+    }
+}

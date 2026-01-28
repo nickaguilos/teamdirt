@@ -11228,9 +11228,12 @@ textarea.form-control-lg {
   grid-template-areas: "head head head head head head" "body body body body body body" "foot foot foot foot foot foot";
 }
 .teamdirt .btn-primary {
-  background-color: rgb(255, 190, 0);
-  border-color: rgb(255, 190, 0);
-  color: #111;
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+  color: #FFF;
+  font-family: "Jetbrains Mono", monospace;
+  text-transform: uppercase;
+  border-radius: 0;
 }
 .teamdirt.blog {
   font-family: Inter, sans-serif;
@@ -11263,6 +11266,10 @@ textarea.form-control-lg {
 figcaption {
   font-family: "JetBrains Mono", monospace;
   font-size: 13px;
+}
+
+.fw-bold {
+  font-weight: 900 !important;
 }
 
 #site-head {
@@ -11311,6 +11318,31 @@ figcaption {
 @media screen and (min-width: 1000px) {
   #blog.teamdirt.article .hero-wrapper {
     margin: 2em -7em;
+  }
+}
+
+#support.teamdirt .img-wrapper {
+  margin-left: -24px;
+  margin-right: -24px;
+}
+#support.teamdirt .logo-track {
+  width: max-content;
+  animation: scroll-logos 25s linear infinite;
+}
+#support.teamdirt .logo-track img {
+  max-height: 100px;
+  max-width: 150px;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  display: block;
+  margin: 1em;
+}
+@keyframes scroll-logos {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
   }
 }
 
