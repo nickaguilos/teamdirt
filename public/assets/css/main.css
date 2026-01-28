@@ -93,11 +93,11 @@
   --bs-tertiary-bg: #f8f9fa;
   --bs-tertiary-bg-rgb: 248, 249, 250;
   --bs-heading-color: inherit;
-  --bs-link-color: #fec514;
-  --bs-link-color-rgb: 254, 197, 20;
+  --bs-link-color: #e5ac00;
+  --bs-link-color-rgb: 229, 172, 0;
   --bs-link-decoration: underline;
-  --bs-link-hover-color: #cb9e10;
-  --bs-link-hover-color-rgb: 203, 158, 16;
+  --bs-link-hover-color: #b78a00;
+  --bs-link-hover-color-rgb: 183, 138, 0;
   --bs-code-color: #d63384;
   --bs-highlight-color: #212529;
   --bs-highlight-bg: #fff3cd;
@@ -2612,7 +2612,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #6c757d;
   --bs-btn-disabled-border-color: transparent;
   --bs-btn-box-shadow: 0 0 0 #000;
-  --bs-btn-focus-shadow-rgb: 216, 167, 17;
+  --bs-btn-focus-shadow-rgb: 195, 146, 0;
   text-decoration: underline;
 }
 .btn-link:focus-visible {
@@ -11321,21 +11321,24 @@ figcaption {
   }
 }
 
-#support.teamdirt .img-wrapper {
+#support.teamdirt .img-wrapper, #support.teamdirt #sponsor-carousel {
   margin-left: -24px;
   margin-right: -24px;
 }
 #support.teamdirt .logo-track {
   width: max-content;
-  animation: scroll-logos 25s linear infinite;
+  animation: scroll-logos 30s linear infinite;
 }
 #support.teamdirt .logo-track img {
   max-height: 100px;
-  max-width: 150px;
-  filter: grayscale(100%);
-  opacity: 0.8;
   display: block;
   margin: 1em;
+}
+@media screen and (min-width: 1000px) {
+  #support.teamdirt section, #support.teamdirt .img-wrapper, #support.teamdirt #sponsor-carousel {
+    max-width: 800px;
+    margin: auto;
+  }
 }
 @keyframes scroll-logos {
   from {

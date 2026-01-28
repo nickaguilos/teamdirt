@@ -1,0 +1,53 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "Request Team Dirt Sponsorship Deck"
+---
+
+<BaseLayout 
+	pageTitle = {pageTitle} ,
+	bodyId = "support",
+	bodyClass="teamdirt grid p-4 m-auto"
+>
+	<div>
+		<section id="hero" class="">
+            <h1 class="display-3 fw-bold mb-3">Request A Sponsorship Deck</h1>
+            <p>
+                We’ll share our full ARWC France campaign overview, partnership options, and next steps
+            </p>
+        </section>
+
+         <form action="https://formspree.io/f/xjgwdgbd" method="POST" class="form text-left">
+            <label class="form-label fw-bold">Your email</label>
+            <input type="email" name="email" class="form-control mb-4" required>
+
+            <label class="form-label fw-bold">Company / Organization</label>
+            <input type="text" name="company" class="form-control mb-4">
+
+            <label class="form-label fw-bold">How would you like to support?</label>
+
+            <select name="interest" class="form-select mb-4" required>
+                <option value="">Select one</option>
+                <option value="campaign-partner">Campaign Partner</option>
+                <option value="team-partner">Team Partner</option>
+                <option value="in-kind">In-kind / Services</option>
+                <option value="exploring">Exploring options</option>
+            </select>
+
+            
+            <label class="form-label fw-bold">Your message</label>
+            <textarea name="message" class="form-control mb-4"></textarea>
+            
+            <!-- your other form fields go here -->
+            <button class="btn btn-primary" type="submit">Request Sponsorship Deck</button>
+        </form>
+
+        <hr class="my-5">
+
+        <span class="fw-bold">Team Dirt's other channels</span>
+        <a href="facebook.com/teamdirt.ph">Facebook.com/teamdirt.ph</a> <br>
+        <a href="instagram.com/teamdirt.ph">Instagram.com/teamdirt.ph</a>
+
+	</div>
+
+</BaseLayout>
