@@ -8,7 +8,8 @@
 	$enable-grid-classes: false,
 	$enable-cssgrid: true,
 	$carousel-control-opacity: 1,
-	$link-color: #e5ac00
+	$primary: #e5ac00,
+	$btn-border-radius: 0
 );
 
 @use "includes/overrides";
@@ -21,3 +22,6 @@
 @use "includes/pages/blog";
 @use "includes/pages/support";
 @use "includes/pages/line-up";
+
+// Bootstrap Icons
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";
