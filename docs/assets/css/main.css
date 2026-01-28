@@ -11327,7 +11327,7 @@ figcaption {
 }
 #support.teamdirt .logo-track {
   width: max-content;
-  animation: scroll-logos 30s linear infinite;
+  animation: scroll-logos 50s linear infinite;
 }
 #support.teamdirt .logo-track img {
   max-height: 100px;
@@ -11337,7 +11337,7 @@ figcaption {
 @media screen and (min-width: 1000px) {
   #support.teamdirt section, #support.teamdirt .img-wrapper, #support.teamdirt #sponsor-carousel {
     max-width: 800px;
-    margin: auto;
+    margin: 4em auto;
   }
 }
 @keyframes scroll-logos {

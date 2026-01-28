@@ -6,7 +6,7 @@
 
     .logo-track {
         width: max-content;
-        animation: scroll-logos 30s linear infinite;
+        animation: scroll-logos 50s linear infinite;
         
         img {
             max-height: 100px;
@@ -21,7 +21,7 @@
     @media screen and (min-width: 1000px) {
         section, .img-wrapper, #sponsor-carousel {
             max-width: 800px;
-            margin: auto
+            margin: 4em auto;
         }
     }
 
