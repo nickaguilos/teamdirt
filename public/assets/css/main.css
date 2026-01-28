@@ -11349,4 +11349,34 @@ figcaption {
   }
 }
 
+#line-up.teamdirt {
+  margin: auto;
+}
+#line-up.teamdirt main {
+  max-width: 800px;
+  margin: auto;
+}
+#line-up.teamdirt .img-wrapper {
+  max-width: 100px;
+}
+#line-up.teamdirt .line-item {
+  gap: 1em;
+}
+@media screen and (min-width: 800px) {
+  #line-up.teamdirt .img-wrapper {
+    max-width: 200px;
+  }
+  #line-up.teamdirt .racer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3em;
+  }
+  #line-up.teamdirt .racer-grid .line-item {
+    flex-direction: column;
+  }
+  #line-up.teamdirt .racer-grid hr, #line-up.teamdirt .racer-grid br {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
