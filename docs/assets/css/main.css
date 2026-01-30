@@ -11340,7 +11340,7 @@ figcaption {
     margin: 4em auto;
   }
 }
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 999px) {
   #support.teamdirt section, #support.teamdirt .img-wrapper, #support.teamdirt #sponsor-carousel {
     max-width: 600px;
     margin: 4em auto;
