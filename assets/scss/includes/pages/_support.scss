@@ -25,6 +25,13 @@
         }
     }
 
+    @media screen and (min-width: 700px) {
+        section, .img-wrapper, #sponsor-carousel {
+            max-width: 600px;
+            margin: 4em auto;
+        }
+    }
+
     @keyframes scroll-logos {
         from {
             transform: translateX(0);

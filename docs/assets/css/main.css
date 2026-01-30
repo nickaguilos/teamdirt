@@ -11340,6 +11340,12 @@ figcaption {
     margin: 4em auto;
   }
 }
+@media screen and (min-width: 700px) {
+  #support.teamdirt section, #support.teamdirt .img-wrapper, #support.teamdirt #sponsor-carousel {
+    max-width: 600px;
+    margin: 4em auto;
+  }
+}
 @keyframes scroll-logos {
   from {
     transform: translateX(0);
