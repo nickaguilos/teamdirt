@@ -1,4 +1,9 @@
 #blog.teamdirt {
+	.blog-roll {
+		@media screen and (max-width: 800px) {
+			width: 100% !important;
+		}
+	}
 	
 	&::before {
 		background: none;

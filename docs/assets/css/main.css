@@ -11307,6 +11307,11 @@ figcaption {
   margin: 10% auto;
 }
 
+@media screen and (max-width: 800px) {
+  #blog.teamdirt .blog-roll {
+    width: 100% !important;
+  }
+}
 #blog.teamdirt::before {
   background: none;
 }
