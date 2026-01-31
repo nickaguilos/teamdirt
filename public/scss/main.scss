@@ -1,0 +1,27 @@
+// Team Dirt Main Sass File
+// Oct 26, 2025 >> Nick Aguilos
+
+// Run Sass 1.62.x for lower end support and no dep warnings
+
+// Bootstrap SCSS
+@use "bootstrap" with (
+	$enable-grid-classes: false,
+	$enable-cssgrid: true,
+	$carousel-control-opacity: 1,
+	$primary: #e5ac00,
+	$btn-border-radius: 0
+);
+
+@use "includes/overrides";
+@use "includes/typography";
+@use "includes/site-head";
+@use "includes/site-body";
+@use "includes/site-footer";
+
+@use "includes/pages/home";
+@use "includes/pages/blog";
+@use "includes/pages/support";
+@use "includes/pages/line-up";
+
+// Bootstrap Icons
+@import "../../node_modules/bootstrap-icons/font/bootstrap-icons.css";

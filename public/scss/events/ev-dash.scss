@@ -1,0 +1,285 @@
+// EV Dash 2025 Main SASS 
+
+// Variables
+$red: #7c0a02;
+$green: rgba(30, 145, 84, 1.00);
+$beige: #f5e8ca;
+$dark: #06213e;
+$white: #fff;
+$light-purple: #cba8ce;
+$pink: #ed127e;
+$peach: #f36e63;
+$purple: #773293;
+
+
+// Type
+h1, h2, h3, h4, h5, h6 {
+	// font-family: "archivo-variable", sans-serif;
+	font-variation-settings: "wdth" 125, "wght" 600;
+}
+
+// Buttons
+.btn {
+	font-variation-settings: "wdth" 125, "wght" 500;
+	color: $white !important;
+	border-radius: 100px !important;
+}
+
+// Base Decs
+body {
+    font-family: "archivo-variable", sans-serif;
+	font-variation-settings: "wdth" 120, "wght" 400;
+    background-color: $light-purple;
+    color: $dark;
+    scroll-behavior: smooth;
+    color: $dark;
+    scroll-behavior: smooth;
+}
+
+#hero, #details, #info, #register>.container, #partners {
+	max-width: 1000px;
+	margin: auto;
+}
+
+.content {
+	position: relative;
+	z-index: 2;
+}
+
+// Parallax and icons
+.parallax {
+	position: relative;
+	// overflow: hidden;
+	// perspective: 1px;
+	height: 100vh;
+
+	.icon {
+		position: absolute;
+		z-index: 1;
+		// max-width: 50px;
+		// transform: translateZ(-1px) scale(0.5);
+		// opacity: 0.7;
+
+		/* Randomize positions */
+		&.event-white {
+			bottom: 22%;
+    		right: 0;
+			width: 150px !important;
+		}
+		&.square-event {
+			top: 46%;
+    		right: 0;
+			width: 100px !important;
+		}
+		&.candy-cane {
+			bottom: -21%;
+    		left: -5%;
+		}
+		&.santa {
+			bottom: -50%;
+			right: 15%;
+			width: 75px;
+		}
+		&.snowflake-1 {
+			top: 10%;
+    		left: 5%;
+			width: 70px;
+		}
+
+		&.snowflake-2 {
+			bottom: 10%;
+    		right: 5%;
+			width: 70px;
+		}
+
+		&.snowflake-3 {
+			bottom: 20%;
+    		left: 12%;
+			width: 100px;
+		}
+
+		&.snowflake-4 {
+			top: 12%;
+    		right: 3%;
+			width: 100px;
+			z-index: 3;
+		}
+
+		&.snowflake-5 {
+			top: 50%;
+			left: 3%;
+			width: 100px;
+			z-index: 3;
+			width: 70px;
+		}
+	}
+}
+
+
+// #site-head
+#site-head {
+
+	.navbar {
+		background: transparent;
+		padding: 0.5em;
+
+		.navbar-brand {
+			img {
+				width: 250px;
+			}
+		}
+	}
+	.navbar a {
+		font-weight: 600;
+		color: $dark;
+	}
+
+	.hero {
+		text-align: center;
+		padding: 160px 20px 120px;
+	}
+
+	.btn-register {
+		background-color: $pink;
+		// border: none;
+		padding: 12px 32px;
+
+		&:hover {
+			background-color: $pink;
+			color: $white;
+		}
+	}
+}
+
+// #details 
+#details {
+	@media screen and (max-width: 765px) {
+		text-align: center;
+	}
+
+	.countdown {
+		font-weight: 700;
+		font-size: 4rem;
+	}
+}
+
+// #info
+.info-box {
+    background-color: $peach;
+	position: relative;
+    color: $white;
+    border-radius: 40px;
+    // max-width: 700px;
+
+	p {
+		max-width: 570px;
+		padding: 0 1em;
+		margin: 1em auto;
+	}
+
+	.graphic {
+		position: absolute;
+		height: auto;
+		
+		&:first-of-type {
+			bottom: 1.5em;
+			right: 1.5em;
+		}
+
+		&:last-of-type {
+			top: 1em;
+			left: 1em;
+			height: 70px;
+		}
+	}
+}
+
+.race-card {
+    border-radius: 100px;
+    padding: 30px 10px;
+    color: $white;
+    font-weight: 700;
+}
+.race-card p {
+    margin: 0;
+    font-weight: 500;
+    font-size: .9rem;
+	color: #fff;
+
+	span {
+		font-variation-settings: 'wdth' 125;
+	}
+}
+.race-card.blue { background-color: $peach; }
+.race-card.yellow { background-color: $pink; }
+.race-card.green { background-color: $dark; }
+.race-card.maroon { background-color: $red; }
+
+// #partners 
+#partners {
+    // background: $white;
+    img {
+        max-width: 400px;
+        margin: auto;
+
+        @media screen and (max-width: 700px) {
+            max-width: 250px;
+        }
+    }
+	#partner-logos {
+            // display: grid;
+            // grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+            // justify-items: center;
+            // align-items: center;
+            padding-top: 2rem;
+        }
+
+    #partner-logos img {
+        max-height: 80px;
+        width: auto;
+        object-fit: contain;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    #partner-logos img:hover {
+        transform: scale(1.05);
+        opacity: 0.9;
+    }
+
+    @media (max-width: 576px) {
+        #partner-logos {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1rem;
+        }
+
+        #partner-logos img {
+            max-height: 60px;
+        }
+    }
+
+    #partner-logos {
+        // gap: 1em;
+        // display: grid;
+        // grid-template-columns: repeat(2, 1fr);
+
+        #logo-dot { width: 150px; }
+        #logo-dirt { width: 100px; }
+        #logo-evta { width: 200px; }
+        #logo-ev { width: 160px; }
+        #logo-love-ph { width: 180px; }
+    }
+
+    
+}
+
+footer {
+    // background-color: $beige;
+    padding: 60px 0 40px;
+
+    img {
+        max-height: 60px;
+        margin: 0 20px;
+        opacity: .9;
+    }
+}

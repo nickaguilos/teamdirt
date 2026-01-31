@@ -1,0 +1,16 @@
+#site-head {
+	grid-area: head;
+
+	#logo {
+        width: 40px;
+    }
+
+	#site-nav {
+		font-family: 'JetBrains Mono', monospace;
+
+		a {
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+	}
+}

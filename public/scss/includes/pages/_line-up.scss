@@ -1,0 +1,35 @@
+#line-up.teamdirt {
+    main {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    margin: auto;
+    .img-wrapper {
+        max-width: 100px;
+    }
+
+    .line-item {
+        gap: 1em;
+    }
+
+    @media screen and (min-width: 800px) {
+        .img-wrapper {
+            max-width: 200px;
+        }
+
+        .racer-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 3em;
+
+            .line-item {
+                flex-direction: column;
+            }
+            
+            hr, br {
+                display: none;
+            }
+        }
+    }
+}
