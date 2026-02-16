@@ -13,7 +13,9 @@ excerpt: "The 11° North Orienteering Championships was built around a simple id
     The 11° North Orienteering Championships was built around a simple idea:
     <i>navigation matters.</i>
     In recent years, many races have leaned heavily toward speed, fitness, or familiarity with terrain. At 11° North, we want to slow things down just enough to reward teams who can think clearly while moving fast—teams who can read a map under pressure, make good decisions when tired, and work together when the terrain roughens up.
+</p>
 
+<a href="https://forms.fillout.com/t/vneeSmxxyWus?fbclid=IwY2xjawPK6LRleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAEwAAEet4zFT3J39c-w5bzJw6jQK7qwqRZYTOZ3FOxwZB5lYt1szU3dH9QhuXsbvx4_aem_UQbFzia_hCUyeazteP9eKQ" class="btn btn-primary">Register Now</a>
 
 ***
 
