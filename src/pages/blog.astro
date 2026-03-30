@@ -4,6 +4,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "Blog";
 const allPosts = Object.values(
     import.meta.glob('./blog/*.md', { eager: true })
+).sort((a, b) => 
+    new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
 );
 ---
 
