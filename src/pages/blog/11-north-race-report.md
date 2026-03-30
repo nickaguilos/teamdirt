@@ -9,7 +9,11 @@ position: "Writer"
 excerpt: "On March 20, under the heat of a Tacloban morning, athletes gathered for the 11° North Orienteering Championships—a race built to challenge navigation, decision-making, and composure under pressure."
 ---
 
+<div class="my-3">
+
 ## 11° North Orienteering Championships 2025: Official Results
+
+</div>
 
 <p class="lead">
     On March 20, under the heat of a Tacloban morning, athletes gathered for the 11° North Orienteering Championships—a race built to challenge navigation, decision-making, and composure under pressure.
