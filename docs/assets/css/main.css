@@ -11324,6 +11324,9 @@ figcaption {
     margin: 2em -7em;
   }
 }
+#blog.teamdirt.article p {
+  margin-top: 1em;
+}
 
 #support.teamdirt .img-wrapper, #support.teamdirt #sponsor-carousel {
   margin-left: -24px;
