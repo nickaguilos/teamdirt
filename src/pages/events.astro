@@ -2,6 +2,9 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const pageTitle = "Events";
+const allPosts = Object.values(
+    import.meta.glob('./events/*.md', { eager: true })
+);
 ---
 
 <BaseLayout
@@ -14,6 +17,18 @@ const pageTitle = "Events";
     <h1>{pageTitle}</h1>
 
     <div class="event-roll w-75">
+
+        {allPosts.map((post) => (
+            <article class="mb-5">
+                <h3 class="fw-bold">
+                    <a href={post.url}>{post.frontmatter.title}</a>
+                </h3>
+
+                <p>
+                    {post.frontmatter.excerpt}
+                </p>
+            </article>
+        ))}
         <article class="mb-5">
             <h3 class="fw-bold">
                 <a href="/events/ev-dash/index.html">Infinite Strides Eastern Visayas Dash - Run For A Purpose</a>
