@@ -32,4 +32,16 @@
       document.body.classList.remove('no-scroll');
     }
   });
+
+
+  document.addEventListener('click', (e) => {
+    const isClickInsideMenu = nav?.contains(e.target);
+    const isClickToggle = toggle.contains(e.target);
+
+    if (!isClickInsideMenu && !isClickToggle && nav?.classList.contains('open')) {
+      nav.classList.remove('open');
+      toggle.classList.remove('open');
+      document.body.classList.remove('no-scroll');
+    }
+  });
 </script>
