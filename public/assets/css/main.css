@@ -11277,10 +11277,16 @@ figcaption {
 
 #site-head {
   grid-area: head;
+  position: relative;
   /* OPEN STATE */
 }
 #site-head #logo {
   width: 40px;
+}
+@media screen and (max-width: 699px) {
+  #site-head {
+    position: static;
+  }
 }
 #site-head #site-nav {
   font-family: "JetBrains Mono", monospace;
@@ -11306,8 +11312,8 @@ figcaption {
   #site-head #site-nav {
     bottom: unset;
     left: unset;
-    right: 1em;
-    top: 2em;
+    right: 0;
+    top: 4em;
     padding: 2em !important;
   }
   #site-head #site-nav a {
