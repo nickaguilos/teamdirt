@@ -11258,6 +11258,10 @@ textarea.form-control-lg {
   width: 800px;
 }
 
+body.no-scroll {
+  overflow: hidden;
+}
+
 .mono, a {
   font-family: "JetBrains Mono", monospace;
 }
@@ -11273,16 +11277,61 @@ figcaption {
 
 #site-head {
   grid-area: head;
+  /* OPEN STATE */
 }
 #site-head #logo {
   width: 40px;
 }
 #site-head #site-nav {
   font-family: "JetBrains Mono", monospace;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+#site-head #site-nav.open {
+  display: block;
 }
 #site-head #site-nav a {
   text-decoration: none;
   text-transform: uppercase;
+  display: block;
+  font-size: 2em;
+  padding-top: 0.5em;
+}
+#site-head .menu-toggle {
+  width: 30px;
+  height: 16px;
+  position: relative;
+  border: none;
+  background: none;
+  cursor: pointer;
+  z-index: 2;
+}
+#site-head .menu-toggle span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+#site-head .menu-toggle span:nth-child(1) {
+  top: 0;
+}
+#site-head .menu-toggle span:nth-child(2) {
+  bottom: 0;
+}
+#site-head .menu-toggle.open span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 4px;
+}
+#site-head .menu-toggle.open span:nth-child(2) {
+  transform: rotate(-45deg);
+  bottom: 10px;
 }
 
 #site-body {

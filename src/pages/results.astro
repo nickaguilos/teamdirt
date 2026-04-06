@@ -1,0 +1,99 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import rawResults from "../data/lifetime-results.json";
+
+const pageTitle = "Team Dirt Lifetime Race Results";
+
+let results = rawResults.map(r => {
+  const race = r["Race "]?.trim();
+  const date = r["Date"];
+  const type = r["Race Type"];
+  const category = r["Category"] || "";
+  const result = r["Result"] || "";
+
+  // extract year from "August 2009"
+  const yearMatch = date?.match(/\d{4}/);
+  const year = yearMatch ? Number(yearMatch[0]) : 0;
+    // compute sortable timestamp
+  const parsedDate = date ? new Date(date) : new Date(0);
+  const timestamp = parsedDate.getTime();
+
+
+  // extract team members
+  let team = [];
+  if (r["Racer "]) {
+    const parts = r["Racer "].split("-");
+    const names = parts[1] || parts[0];
+    team = names.split(",").map(n => n.trim());
+  }
+
+  // detect position
+  let position = null;
+  if (result.toLowerCase().includes("champion")) position = 1;
+  else if (result.includes("2nd")) position = 2;
+  else if (result.includes("3rd")) position = 3;
+
+  return {
+    race,
+    date,
+    year,
+    timestamp,
+    type,
+    category,
+    team,
+    result,
+    position
+  };
+});
+
+// sort latest first
+const sortedResults = [...results].sort((a, b) => b.timestamp - a.timestamp);
+---
+
+<BaseLayout
+    pageTitle={pageTitle}
+    bodyId="results"
+    bodyClass="teamdirt grid p-4 m-auto"
+    mainClass="p-2"
+>
+
+<header class="mb-5">
+    <h1 class="fw-bold">{pageTitle}</h1>
+    <p class="lead">
+        A record of where we’ve been, who we raced with, and how we performed.
+    </p>
+</header>
+
+<div class="results-table table-responsive w-100">
+
+    <table class="table w-100">
+        <thead>
+            <tr>
+                <th>Race</th>
+                <th>Date</th>
+                <th>Type</th>
+                <th>Category</th>
+                <th>Team</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {sortedResults.map((r) => (
+                <tr>
+                    <td>{r.race}</td>
+                    <td>{r.date}</td>
+                    <td>{r.type}</td>
+                    <td>{r.category}</td>
+                    <td>{r.team ? r.team.join(", ") : "-"}</td>
+                    <td>
+                        {r.result}
+                    </td>
+                </tr>
+            ))}
+        </tbody>
+    </table>
+
+</div>
+
+</BaseLayout>

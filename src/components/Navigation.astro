@@ -2,9 +2,34 @@
 
 ---
 
-<nav id="site-nav">
+<nav id="site-nav" class="card shadow p-5">
     <a href="/">Home</a>
     <a href="/blog">Blog</a>
-    <a href="/events">Events</a> &middot;
-    <a href="/support">Support</a>
+    <a href="/support">Send your support</a>
+    <a href="/events">Events</a>
+    <a href="/results">Race Results</a>
+    <a href="/team-composition">Meet The Racers</a>
 </nav>
+
+<!-- Menu Toggle -->
+<button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+    <span></span>
+    <span></span>
+</button>
+
+<script>
+  const toggle = document.getElementById('menuToggle');
+  const nav = document.getElementById('site-nav');
+
+  toggle.addEventListener('click', () => {
+    const isOpen = toggle.classList.toggle('open');
+    nav?.classList.toggle('open');
+
+
+    if (isOpen) {
+      document.body.classList.add('no-scroll');
+    } else {
+      document.body.classList.remove('no-scroll');
+    }
+  });
+</script>
