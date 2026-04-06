@@ -36,6 +36,7 @@
 			bottom: unset;
 			left: unset;
 			right: 0;
+			height: 100vh;
 			top: 4em;
 			padding: 2em !important;
 
@@ -76,7 +77,7 @@
 	/* OPEN STATE */
 	.menu-toggle.open span:nth-child(1) {
 		transform: rotate(45deg);
-		top: 4px;
+		top: 3px;
 	}
 
 	.menu-toggle.open span:nth-child(2) {
