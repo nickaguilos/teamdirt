@@ -19,6 +19,7 @@
 		right: 0;
 		bottom: 0;
 		top: 0;
+		height: 100vh;
 
 		&.open {
 			display: block;
@@ -36,7 +37,7 @@
 			bottom: unset;
 			left: unset;
 			right: 0;
-			height: 100vh;
+			height: unset;
 			top: 4em;
 			padding: 2em !important;
 
