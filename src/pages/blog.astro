@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+const { frontmatter } = Astro.props;
 
 const pageTitle = "Blog";
 const allPosts = Object.values(
@@ -21,13 +22,18 @@ const allPosts = Object.values(
     <div class="blog-roll w-75" >
 
         {allPosts.map((post) => (
-            <article class="mb-5">
+            <article class="mb-5 border-bottom">
                 <h3 class="fw-bold">
                     <a href={post.url}>{post.frontmatter.title}</a>
                 </h3>
 
                 <p>
                     {post.frontmatter.excerpt}
+                </p>
+
+                <p class="meta">
+                  {post.frontmatter.author}{post.frontmatter.position ? `, ${post.frontmatter.position}` : ""} &middot; 
+                  <span>{new Date(post.frontmatter.date).toLocaleDateString()}</span>
                 </p>
             </article>
         ))}
