@@ -12,7 +12,8 @@ const formattedDate = new Intl.DateTimeFormat("en-US", {
 <BaseLayout
     pageTitle = {frontmatter.title},
     bodyId = "blog",
-    bodyClass = "teamdirt article grid p-4 m-auto my-4 border"
+    bodyClass = "teamdirt article grid p-4 m-auto my-4 border",
+    mainClass = {frontmatter.mainClass},
 >
     <header id="blog-heading" class="text-center">
         <h1>

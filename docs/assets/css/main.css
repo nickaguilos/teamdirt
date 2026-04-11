@@ -11384,9 +11384,25 @@ figcaption {
 #blog.teamdirt::before {
   background: none;
 }
+#blog.teamdirt.article #site-body {
+  font-size: 18px;
+}
+#blog.teamdirt.article #site-body .hero-wrapper {
+  width: 100%;
+  margin: 2em auto;
+}
+#blog.teamdirt.article #site-body img {
+  width: 100%;
+}
 @media screen and (min-width: 1000px) {
-  #blog.teamdirt.article #site-body {
-    grid-column: 2/6;
+  #blog.teamdirt.article #site-body p, #blog.teamdirt.article #site-body h1, #blog.teamdirt.article #site-body h2, #blog.teamdirt.article #site-body h3, #blog.teamdirt.article #site-body ul, #blog.teamdirt.article #site-body ol {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+  }
+  #blog.teamdirt.article #site-body img {
+    width: 100%;
   }
 }
 @media screen and (min-width: 1000px) {
