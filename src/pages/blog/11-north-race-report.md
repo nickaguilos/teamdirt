@@ -4,7 +4,7 @@ title: "11 Degrees North Race Report"
 date: 2026-03-20
 heroImg: "/assets/img/blog/2026-eleven-north/hero-img.jpg"
 category: "Events"
-author: "Juan Nowan"
+author: "Team Dirt Media"
 position: "Writer"
 excerpt: "On March 20, under the heat of a Tacloban morning, athletes gathered for the 11° North Orienteering Championships—a race built to challenge navigation, decision-making, and composure under pressure."
 ---

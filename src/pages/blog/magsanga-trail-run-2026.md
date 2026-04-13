@@ -4,7 +4,7 @@ title: "Magsanga Trail Run 2026"
 date: 2026-02-28
 heroImg: "/assets/img/blog/2026-magsanga/4.JPG"
 category: "Events"
-author: "Juan Nowan"
+author: "Team Dirt Media"
 position: "Writer"
 excerpt: "Team Dirt officially kicked off its 2026 racing season at the Magsanga Trail Run in Merida, Leyte"
 ---
