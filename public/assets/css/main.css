@@ -11222,6 +11222,7 @@ textarea.form-control-lg {
 }
 .teamdirt {
   --bs-columns: 6;
+  font-family: Inter, sans-serif;
   max-width: 1200px;
 }
 .teamdirt.grid {
