@@ -20,7 +20,7 @@ The team showed up ready, and the effort translated directly to the results boar
 - Gil Peñero – Champion, 30KM Male Category
 - Kirvy Uy - 4th, 30KM Male Category
 
-### 30KM Race Results
+### 15KM Race Results
 - Lilik Velasco – Champion, 15KM Male Category
 - Nick Aguilos – 8th, 15KM Male Category
 - Sansi Hernaez - 10th, 15KM Male Category
