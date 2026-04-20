@@ -11395,11 +11395,10 @@ figcaption {
   width: 100%;
 }
 @media screen and (min-width: 1000px) {
-  #blog.teamdirt.article #site-body p, #blog.teamdirt.article #site-body h1, #blog.teamdirt.article #site-body h2, #blog.teamdirt.article #site-body h3, #blog.teamdirt.article #site-body ul, #blog.teamdirt.article #site-body ol {
+  #blog.teamdirt.article #site-body p, #blog.teamdirt.article #site-body h1, #blog.teamdirt.article #site-body h2, #blog.teamdirt.article #site-body h3, #blog.teamdirt.article #site-body ul, #blog.teamdirt.article #site-body ol, #blog.teamdirt.article #site-body blockquote {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1.5em;
   }
   #blog.teamdirt.article #site-body img {
     width: 100%;
@@ -11412,6 +11411,11 @@ figcaption {
 }
 #blog.teamdirt.article p {
   margin-top: 1em;
+}
+#blog.teamdirt.article .carousel {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #support.teamdirt .img-wrapper, #support.teamdirt #sponsor-carousel {
