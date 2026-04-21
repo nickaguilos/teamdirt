@@ -340,5 +340,53 @@
     "Category": "12Km",
     "Racer ": "Aguilos",
     "Result": "4th"
+  },
+  {
+    "Race ": "Barayong Trailfest",
+    "Date": "April 2026",
+    "Race Type": "Trail Race",
+    "Category": "30Km",
+    "Racer ": "Viojan",
+    "Result": "Champion"
+  },
+  {
+    "Race ": "Barayong Trailfest",
+    "Date": "April 2026",
+    "Race Type": "Trail Race",
+    "Category": "30Km",
+    "Racer ": "Peñero",
+    "Result": "Champion"
+  },
+  {
+    "Race ": "Barayong Trailfest",
+    "Date": "April 2026",
+    "Race Type": "Trail Race",
+    "Category": "30Km",
+    "Racer ": "Uy",
+    "Result": "4th"
+  },
+  {
+    "Race ": "Barayong Trailfest",
+    "Date": "April 2026",
+    "Race Type": "Trail Race",
+    "Category": "15Km",
+    "Racer ": "Velasco",
+    "Result": "Champion"
+  },
+  {
+    "Race ": "Barayong Trailfest",
+    "Date": "April 2026",
+    "Race Type": "Trail Race",
+    "Category": "15Km",
+    "Racer ": "Aguilos",
+    "Result": "8th"
+  },
+  {
+    "Race ": "Barayong Trailfest",
+    "Date": "April 2026",
+    "Race Type": "Trail Race",
+    "Category": "30Km",
+    "Racer ": "Hernaez",
+    "Result": "10th"
   }
 ]
