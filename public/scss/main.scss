@@ -9,7 +9,8 @@
 	$enable-cssgrid: true,
 	$carousel-control-opacity: 1,
 	$primary: #000000,
-	$btn-border-radius: 0
+	$btn-border-radius: 0,
+	$mark-bg: #FFD000
 );
 
 @use "includes/overrides";

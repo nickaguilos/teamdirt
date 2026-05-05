@@ -101,7 +101,7 @@
   --bs-link-hover-color-rgb: 0, 0, 0;
   --bs-code-color: #d63384;
   --bs-highlight-color: #212529;
-  --bs-highlight-bg: #fff3cd;
+  --bs-highlight-bg: #FFD000;
   --bs-border-width: 1px;
   --bs-border-style: solid;
   --bs-border-color: #dee2e6;
@@ -11229,9 +11229,9 @@ textarea.form-control-lg {
   grid-template-areas: "head head head head head head" "body body body body body body" "foot foot foot foot foot foot";
 }
 .teamdirt .btn-primary {
-  background-color: rgb(0, 0, 0);
-  border-color: rgb(0, 0, 0);
-  color: #FFF;
+  background-color: #FFD000;
+  border-color: #FFD000;
+  color: #000;
   font-family: "Jetbrains Mono", monospace;
   text-transform: uppercase;
 }
@@ -11375,6 +11375,46 @@ figcaption {
 #home.teamdirt #nameplate {
   max-width: 700px;
   margin: 10% auto;
+}
+@media (max-width: 575.98px) {
+  #home.teamdirt #upcoming-races {
+    text-align: center;
+  }
+  #home.teamdirt #upcoming-races li {
+    flex-direction: column;
+  }
+  #home.teamdirt #upcoming-races li span:nth-child(2) {
+    opacity: 0.8;
+  }
+}
+#home.teamdirt #sponsors .d-grid {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  align-items: center;
+  justify-items: center;
+}
+@media (max-width: 575.98px) {
+  #home.teamdirt #sponsors {
+    text-align: center;
+  }
+  #home.teamdirt #sponsors .d-grid {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+  #home.teamdirt #sponsors .d-grid img {
+    max-width: 120px;
+  }
+}
+#home.teamdirt #sponsors img {
+  max-width: 200px;
+  max-height: 60px;
+  object-fit: contain;
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: all 0.2s ease;
+}
+#home.teamdirt #sponsors img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
 }
 
 @media screen and (max-width: 800px) {
