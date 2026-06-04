@@ -404,5 +404,32 @@
     "Category": "16Km",
     "Racer ": "Peñero",
     "Result": "2nd"
+  },
+
+  {
+    "Race ": "Mind Over Matter Palompon Matag-ob Adventure Race",
+    "Date": "May 2026",
+    "Race Type": "AR",
+    "Category": "",
+    "Racer ": "Peñero, Rosales, Velasco, Benson, Labrador",
+    "Result": "2nd"
+  },
+
+  {
+    "Race ": "Taragobay Adventure Race",
+    "Date": "June 2026",
+    "Race Type": "AR",
+    "Category": "",
+    "Racer ": "[Dirt Core] Peñero, Viojan, Aguilos",
+    "Result": "Champion"
+  },
+
+  {
+    "Race ": "Taragobay Adventure Race",
+    "Date": "June 2026",
+    "Race Type": "AR",
+    "Category": "",
+    "Racer ": "[Dirt Potentials] Rosales, Velasco, Benson",
+    "Result": "3rd"
   }
 ]
