@@ -11,17 +11,17 @@ excerpt: "Taragobay Adventure Race was one of the races we looked forward to the
 
 ## Chasing a Myth in Northern Samar 
 
-Along the northeastern coast of Samar Island, where rugged mountain ranges meet the restless Pacific Ocean, lies the municipality of Palapag.
+Along the northeastern coast of Samar Island, where rugged mountain ranges meet the restless Pacific Ocean, lies the **Municipality of Palapag**.
 
-Rich in history and known as the birthplace of the Sumuroy Revolt, Palapag has also earned a reputation within Eastern Visayas’ adventure racing community. For years, we have raced alongside athletes from this side of the region. We first met many of them through NOSTRA’s Rurumba Adventure Race, and ever since, Palapag racers and organizers have been a constant presence in races across the region—either as competitors or race officials.
+Rich in history and known as the birthplace of the *Sumuroy Revolt*, Palapag has also earned a reputation within Eastern Visayas’ adventure racing community. For years, we have raced alongside athletes from this side of the region. We first met many of them through **NOSTRA’s Rurumba Adventure Race**, and ever since, Palapag racers and organizers have been a constant presence in races across the region—either as competitors or race officials.
 
-It was from that same racing culture that Taragobay Adventure Race was born.
+It was from that same racing culture that **Taragobay Adventure Race** was born.
 
-Organized by the founders of Palapag Sierra Club, Taragobay began as a grassroots event intended to develop Palapag’s local adventure racing scene. For its first editions, participation was limited to local racers, helping cultivate a strong adventure racing culture within the municipality.
+Organized by the founders of *Palapag Sierra Club*, Taragobay began as a grassroots event intended to develop Palapag’s local adventure racing scene. For its first editions, participation was limited to local racers, helping cultivate a strong adventure racing culture within the municipality.
 
 This year marked a turning point.
 
-Taragobay opened its doors to outside teams and expanded beyond the borders of Palapag, stretching across the Pacific municipalities of Gamay, Mapanas, and Lapinig.
+Taragobay opened its doors to outside teams and expanded beyond the borders of Palapag, stretching across the Pacific municipalities of *Gamay*, *Mapanas*, and *Lapinig*.
 
 To us, Taragobay had always carried an almost mythical status. It was the race we constantly heard stories about—a race that traversed stunning terrain, remote communities, rivers, waterfalls, and coastlines that few outsiders ever got to experience. The area’s history and, to an extent, lingering security concerns, only added to its mystique.
 ___
@@ -47,15 +47,22 @@ Initially, I planned to help behind the scenes. Palapag Sierra and MDRRMO Palapa
 
 But after several discussions within Team Dirt, we realized that being present at such a major race would benefit not only our team, but also the wider adventure racing community by showing we stepped up to such a challenge. In the end, we decided to do what we do best: race.
 
-Team Dirt Core consisted of myself, Gil, and Erika. Joining us was Team Dirt Potentials, our next generation of racers whom we’ve been mentoring over the past several months. For Taragobay, Janix, Jobe, and Lilik carried the Potentials banner.
+*Team Dirt Core* consisted of myself, Gil, and Erika. Joining us was *Team Dirt Potentials*, our next generation of racers whom we’ve been mentoring over the past several months. For Taragobay, Janix, Jobe, and Lilik carried the Potentials banner.
 
 We arrived in Palapag knowing we were about to experience something special.
+___
+
+<div class="in-body-single-img">
+    <img src="/assets/img/blog/2026-taragobay/side-by-side/sxs-1.jpg" class="d-block w-100" alt="Taragobay Race Photos">
+</div>
+
+___
 
 ## Day 1
 
 The morning of May 31 broke over Palapag Town Plaza as racers gathered beneath the first light of day.
 
-The town was celebrating Agustin Sumuroy, the brave Palapagnon who led one of the earliest revolts against Spanish colonial rule. It felt like an appropriate backdrop for the challenge ahead. 
+The town was celebrating **Agustin Sumuroy**, the brave Palapagnon who led one of the earliest revolts against Spanish colonial rule. It felt like an appropriate backdrop for the challenge ahead. 
 
 ### Stage 1: Orienteering
 
@@ -65,19 +72,27 @@ The objective was simple: collect our race maps, bikes, and PFDs before moving o
 
 It took us roughly an hour and a half to complete, but it provided a good warm-up before the much bigger stages ahead.
 
+___
+
+<blockquote class="blockquote">
+    Knowing that the organizers were racers themselves, we expected a course that would challenge every aspect of adventure racing—navigation, teamwork, endurance, and decision-making. <strong>It did exactly that</strong>.
+</blockquote>
+
+___
+
 ### Stage 2: The Chase Begins
 
 The bikes came next, and I already had a feeling that much of this race would be decided on two wheels.
 
-We pushed hard toward Brgy. Capacujan, crossing an old steel-span bridge before reaching CP1.
+We pushed hard toward Brgy. Capacujan, crossing an old steel-span bridge before reaching *CP1*.
 
-Upon arrival, we learned that Team Tapiki had already passed through thirty minutes earlier.
+Upon arrival, we learned that *Team Tapiki* had already passed through thirty minutes earlier.
 
 That immediately caught our attention.
 
 Tapiki was a local team. In races like this, local knowledge can often outweigh even the best navigation.
 
-To make up time, we chose an aggressive route toward CP2 in Brgy. Matambag. Rather than backtracking to the highway through Palapag and Simora, we cut through the hills separating Capacujan and Matambag.
+To make up time, we chose an aggressive route toward *CP2* in Brgy. Matambag. Rather than backtracking to the highway through Palapag and Simora, we cut through the hills separating Capacujan and Matambag.
 
 The shortcut looked good on paper.
 
@@ -87,7 +102,7 @@ It was brutal. But it worked.
 
 By the time we reached CP2 around 9:00 AM, we had cut Tapiki’s lead down to twenty minutes.
 
-CP3 in Brgy. Magsaysay came and went, and the gap remained roughly the same. Then we rolled toward CP4 along the eastern banks of the Palapag River.
+*CP3* in Brgy. Magsaysay came and went, and the gap remained roughly the same. Then we rolled toward *CP4* along the eastern banks of the Palapag River.
 
 As we arrived, we saw Team Tapiki still completing the checkpoint’s Tyrolean traverse.
 
@@ -105,11 +120,17 @@ The hunt was on.
 
 
 ---
-<a href="/assets/img/blog/2026-taragobay/hero/hero-5.jpg" target="_blank">
-<img src="/assets/img/blog/2026-taragobay/hero/hero-5.jpg" class="d-block w-100 in-body-single-img" alt="Taragobay Race Photos">
-</a>
+<div class="side-by-side">
+<div>
+    <a href="/assets/img/blog/2026-taragobay/hero/hero-5.jpg" target="_blank"><img src="/assets/img/blog/2026-taragobay/hero/hero-5.jpg" alt="Taragobay Race Photos"></a>
+</div>
+
+<div>
+    <img src="/assets/img/blog/2026-taragobay/hero/hero-7.jpg">
+</div>
+</div>
 <figcaption class="text-center my-2">
-    Race Map. Click for full view
+    Race Map.  <br> <a href="/assets/img/blog/2026-taragobay/hero/hero-5.jpg" target="_blank"> View Full Map </a> / <a href="https://www.strava.com/activities/18746306028"> View Full Strava Activity </a>
 </figcaption>
 
 ___
@@ -117,19 +138,21 @@ ___
 
 ### Stage 3: Taking the Lead
 
-Back on our bikes, we pushed toward CP5 at Mapno Port.
+Back on our bikes, we pushed toward *CP5* at Mapno Port.
 
 A navigation mistake briefly slowed us down when we overshot the entrance by several kilometers, but my mental backstops kicked in and prompted a reassessment before we lost too much time.
 
-At Mapno Port, we transitioned into a swim stage toward Palihon Island.
+At Mapno Port, we transitioned into a swim stage toward *Palihon Island*.
 
 Fast transitions have always been part of Team Dirt’s philosophy, and once again that approach paid off.
 
 As we entered the water, Tapiki was only slightly ahead.
 
-By the time we reached CP6 on Palihon Island, mere seconds separated us.
+By the time we reached *CP6* on Palihon Island, mere seconds separated us.
 
-We checked in first. For the first time all day, Team Dirt was leading Taragobay Adventure Race. The lead was small, but it mattered.
+We checked in first. 
+
+For the first time all day, Team Dirt was leading Taragobay Adventure Race. The lead was small, but it mattered.
 
 In adventure racing, a lead provides room for error. Every team will eventually make mistakes—navigation errors, mechanical problems, cramps, or simple fatigue.
 
@@ -158,11 +181,11 @@ ___
 
 ### Stage 4: The Long Grind
 
-The next stage was the longest bike leg of the race.
+The next stage was the second longest bike leg of the race.
 
 Hours under the tropical sun, rolling across exposed roads and endless stretches of asphalt. The heat was unrelenting.
 
-CP7 sat roughly fifteen kilometers southeast of Mapno Port along one of the most scenic sections of Pacific coastline we had ever raced through.
+*CP7* sat roughly fifteen kilometers southeast of Mapno Port along one of the most scenic sections of Pacific coastline we had ever raced through.
 
 Unfortunately, it was here that my right leg began cramping.
 
@@ -172,40 +195,43 @@ By the time we reached CP7 around 2:00 PM, Tapiki had checked in first but found
 
 We genuinely felt for them. No racer wants to lose time because of something like that.
 
-We hesitated before leaving, unsure whether it would feel like taking advantage of the situation. The marshals assured us everything was in order, so we continued toward CP8 at Pacific Rock Resort.
+We hesitated before leaving, unsure whether it would feel like taking advantage of the situation. The marshals assured us everything was in order, so we continued toward *CP8 at Pacific Rock Resort*.
 
 From there, the race carried us through to Mapanas.
 
-CP9 sat atop the newly constructed Municipal Hall.
+___
+
+<div class="in-body-single-img">
+    <img src="/assets/img/blog/2026-taragobay/hero/hero-8.jpg" class="d-block w-100" alt="Taragobay Race Photos">
+</div>
+
+___
+
+*CP9* sat atop the newly constructed Municipal Hall.
 
 Before the race, we joked about how funny it would be if a checkpoint ended up on top of that specific hill.
 
 The joke stopped being funny very quickly during the race. It was no fun at all heading up that steep gradient towards CP9.
 
-CP10 brought us to “Mayong Payong” in Brgy. Burgos, where white sand beaches and towering limestone formations created one of the most beautiful checkpoint locations of the race.
+*CP10* brought us to *“Mayong Payong”* in Brgy. Burgos, where white sand beaches and towering limestone formations created one of the most beautiful checkpoint locations of the race.
 
 The route then carried us through CP11 to CP16, tracing the Pacific coastline before eventually reaching Gamay Town.
 
-Along the way, Kan Langka Cold Spring (CP15) stood out as a particular highlight. The turquoise water looked incredibly inviting after hours of riding in oppressive heat.
+Along the way, *Kan Langka Cold Spring* (CP15) stood out as a particular highlight. The turquoise water looked incredibly inviting after hours of riding in the heat.
 
 We wanted badly to stop. Instead, we kept moving.
 
 ___
 
-<div class="side-by-side">
-<div>
-    <img src="/assets/img/blog/2026-taragobay/side-by-side/sxs-1.jpg" class="d-block w-100" alt="Taragobay Race Photos">
-</div>
-<div>
+<div class="in-body-single-img">
     <img src="/assets/img/blog/2026-taragobay/side-by-side/sxs-2.jpg" class="d-block w-100" alt="Taragobay Race Photos">
-</div>
 </div>
 
 ___
 
 ## The Missing Checkpoint
 
-When we arrived in Gamay, we expected a quick check-in at CP16 before continuing onward.
+When we arrived in *Gamay*, we expected a quick check-in at CP16 before continuing onward.
 
 Except there was no checkpoint.
 
@@ -215,15 +241,11 @@ We searched the entire town. We checked coordinates. We replotted our route. We 
 
 After more than an hour of searching, I remained convinced we were exactly where we needed to be.
 
-Eventually I told Gil and Erika:
-
-“Let’s eat first.”
+Eventually I told Gil and Erika: “Let’s eat first.”
 
 We bought fried chicken and sat down near the location I had plotted.
 
-It was already around 6:00 PM.
-
-We were tired, hungry, and staring at our maps trying to understand what we had missed.
+It was already around 6:00 PM. We were tired, hungry, and staring at our maps trying to understand what we had missed.
 
 Then Jeremy, the race director, arrived.
 
@@ -243,7 +265,7 @@ Adventure racing always finds new ways to humble you.
 
 Because of schedule adjustments and concerns regarding time estimates, organizers suspended racing for the night and moved several checkpoints to the following day.
 
-Our destination became the dark zone at Lapinig Mini Forest.
+Our destination became the dark zone at *Lapinig Mini Forest*.
 
 There, cultural performances welcomed racers and volunteers alike—a fitting end to a long and demanding first day.
 
@@ -284,23 +306,31 @@ Our Potentials Team had arrived.
 
 Seeing Janix, Jobe, and Lilik close behind was one of the proudest moments of the race. Their progress validated months of mentoring and training.
 
+
+___
+<blockquote class="blockquote">
+To us, Taragobay had always carried an almost mythical status
+</blockquote>
+
+___
+
 ### Stage 5: Up the Gamay River
 
 The next challenge involved paddling four kilometers upstream along the Gamay River using small plastic dinghies. The current added resistance, making every stroke count.
 
-At Brgy. Cadean, we transitioned onto foot for the next stage.
+At *Brgy. Cadean*, we transitioned onto foot for the next stage.
 
 ### Stage 6: Into the Interior
 
-CP19 through CP22 highlighted Gamay’s interior landscapes.
+*CP19* through *CP22* highlighted Gamay’s interior landscapes.
 
 Waterfalls. River crossings. Remote trails. This was the side of Northern Samar that many travelers never get to see.
 
 ### Stage 7: Back on the Bikes
 
-At CP23 in Brgy. Bangon, we returned to our bikes.
+At *CP23* in Brgy. Bangon, we returned to our bikes.
 
-The route from CP24 to CP29 would cover much of Lapinig before eventually reconnecting with Palapag’s coastline.
+The route from *CP24* to *CP29* would cover much of Lapinig before eventually reconnecting with Palapag’s coastline.
 
 By this point, we had reunited with our Potentials Team and decided to travel together for portions of the route.
 
@@ -316,6 +346,9 @@ ___
     <img src="/assets/img/blog/2026-taragobay/side-by-side/sxs-7.jpg" class="d-block w-100" alt="Taragobay Race Photos">
 </div>
 </div>
+<figcaption class="text-center my-3">
+    Waterfall rappel section. Photos from Joan Songalia
+</figcaption>
 
 ___
 
@@ -337,18 +370,21 @@ A 100-meter waterfall dropped into a narrow gully below. The view stretched acro
 
 It was breathtaking.
 
-We waited nearly an hour as teams descended one at a time.
+We waited nearly an hour as Team Dirt Potentials, who arrived a few minutes before us, descended one at a time.
 
 Unlike other bottlenecks in a race, we welcomed this one. The break was needed.
 
 When my turn finally arrived, I stepped backward over the edge and began descending.
 
-It was surreal. It instantly became one of my favorite memories in adventure racing.
+*It was surreal*; instantly becoming one of my favorite memories in adventure racing.
 
 ___
 <div class="in-body-single-img">
     <img src="/assets/img/blog/2026-taragobay/hero/hero-3.jpg">
 </div>
+<figcaption class="text-center my-3">
+    Headed back to Palapag Town Proper. Photo from Joan Songalia
+</figcaption>
 
 ___
 
@@ -358,11 +394,11 @@ After the rappel, we returned to our bikes and headed towards Palapag.
 
 Rain began falling as we approached the MDRRMO Office, where we left our bikes and transitioned onto foot for the final stage.
 
-Several checkpoints had already been removed due to time constraints, leaving CP35 as the final significant checkpoint of the race.
+Several checkpoints had already been removed due to time constraints, leaving *CP35* as the final significant checkpoint of the race.
 
-Located within the cemetery, it required racers to locate the grave of Emil Go—the founder of Palapag Sierra and one of the visionaries behind Taragobay Adventure Race.
+Located within the cemetery, it required racers to locate the grave of **Emil Go**—the founder of Palapag Sierra and one of the visionaries behind Taragobay Adventure Race.
 
-It was a thoughtful and meaningful checkpoint.
+*It was a thoughtful and meaningful checkpoint*.
 
 In many ways, it reminded us that races like Taragobay exist because individuals dedicate countless hours to building communities, exploring routes, and inspiring others to venture outdoors.
 
@@ -395,9 +431,9 @@ ___
 
 ## Conclusion
 
-Taragobay Adventure Race was one of the races we looked forward to the most this year. Knowing that the organizers were racers themselves, we expected a course that would challenge every aspect of adventure racing—navigation, teamwork, endurance, and decision-making. It did exactly that.
+Taragobay Adventure Race was one of the races we looked forward to the most this year. Knowing that the organizers were racers themselves, we expected a course that would challenge every aspect of adventure racing—navigation, teamwork, endurance, and decision-making. **It did exactly that**.
 
-Coming just a week after Mind Over Matter Palompon, Taragobay became an unexpected test of recovery. It gave us a chance to see how far our training had taken us, not just physically, but also in how we worked together under pressure and fatigue.
+Coming just a week after *Mind Over Matter Palompon*, Taragobay became an unexpected test of recovery. It gave us a chance to see how far our training had taken us, not just physically, but also in how we worked together under pressure and fatigue.
 
 Like any race, there were areas that could still be refined. But those small shortcomings were easily overshadowed by everything that made the event memorable.
 
@@ -406,6 +442,14 @@ The route showcased the incredible diversity of Northern Samar. Over two days, w
 What stood out even more were the people behind the race. From the organizers and volunteers to the local government units and residents who welcomed racers into their towns and barangays, there was a genuine effort to share the beauty of this part of Samar with everyone who came to race.
 
 As Team Dirt, we also took pride in seeing both of our teams perform well. Our Core Team managed to take the overall championship, while our Potentials Team battled through setbacks and time deficits from the first day to secure a third-place finish. Seeing them push through adversity and earn a podium spot was every bit as rewarding as our own result.
+
+We would also like to extend our heartfelt thanks to everyone who made our Taragobay experience even more meaningful. 
+
+To Jemai, Wewei, and the whole MDRRMO Palapag and Palapag Sierra, thank you for welcoming us into your community and for giving us the opportunity to be part of this year’s race. Your passion for adventure racing and your dedication to showcasing Northern Samar were evident throughout the entire event.
+
+To Mahal Jean and the entire Diega family, thank you for your warmth, generosity, and hospitality throughout our stay in Palapag. Having a place that felt like home before and after the race made the experience even more special.
+
+And to our friends Makoy, Cielo, Belle, Joan, and Sir Theody, thank you for making the long trip to Palapag to support us. Knowing that familiar faces were cheering us on throughout the weekend meant more than you know, and sharing this experience with you made the victory even sweeter.
 
 ___
 <div class="in-body-single-img">
@@ -417,15 +461,15 @@ ___
 
 ___
 
-More than the trophies and podium finishes, however, Taragobay reminded us why we race in the first place. It gave us new friendships, new stories, and experiences that will stay with us long after the medals have been packed away.
+More than the trophies and podium finishes, Taragobay reminded us why we race in the first place. It gave us new friendships, rekindled old ones, gained new stories, and experiences that will stay with us long after the medals have been packed away.
 
 Eastern Visayas continues to build a strong reputation as a destination for adventure racing, and events like Taragobay are a big reason why. 
 
-It is more than just a race; it is a showcase of the terrain, culture, and people that make this region special. Taragobay Adventure Race, for us, is a cornerstone race in this region, and teams should include this race in their race calendars.
+It is more than just a race; it is a showcase of the terrain, culture, and people that make this region special. **Taragobay Adventure Race**, for us, is a cornerstone race in this region, and teams should include this race in their race calendars.
 
 After years of hearing stories about Taragobay, we finally got to experience it for ourselves.
 
-The stories were true.
+*The stories were true.*
 
 And if given the chance, we’d be back at the starting line without hesitation.
 
