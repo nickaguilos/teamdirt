@@ -431,5 +431,32 @@
     "Category": "",
     "Racer ": "[Dirt Potentials] Rosales, Velasco, Benson",
     "Result": "3rd"
+  },
+
+  {
+    "Race ": "Sangyaw Adventure Race",
+    "Date": "June 2026",
+    "Race Type": "AR",
+    "Category": "",
+    "Racer ": "[Dirt Core] Aguilos, Viojan",
+    "Result": "Champion"
+  },
+
+  {
+    "Race ": "Sangyaw Adventure Race",
+    "Date": "June 2026",
+    "Race Type": "AR",
+    "Category": "",
+    "Racer ": "[Dirt Core] Aguilos, Lacaba",
+    "Result": "2nd"
+  },
+
+  {
+    "Race ": "Sangyaw Adventure Race",
+    "Date": "June 2026",
+    "Race Type": "AR",
+    "Category": "",
+    "Racer ": "[Dirt Potentials] Rosales, Labrador",
+    "Result": "DNF"
   }
 ]
