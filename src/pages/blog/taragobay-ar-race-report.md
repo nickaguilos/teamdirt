@@ -45,7 +45,7 @@ ___
 
 Initially, I planned to help behind the scenes. Palapag Sierra and MDRRMO Palapag (Delta) have been good friends of ours for years. My relationship with Jean only deepened that connection, and I wanted to contribute whatever skills I could to help the event succeed.
 
-But after several discussions within Team Dirt, we realized that being present at such a major race would benefit not only our team, but also the wider adventure racing community by showing we stepped up to such a challenge. In the end, we decided to do what we do best: race.
+But after several discussions within Team Dirt, we realized that being present at such a major race would benefit not only our team, but also the wider adventure racing community by showing we stepped up to such a challenge. In the end, we decided to do what we do best: *race*.
 
 *Team Dirt Core* consisted of myself, Gil, and Erika. Joining us was *Team Dirt Potentials*, our next generation of racers whom we’ve been mentoring over the past several months. For Taragobay, Janix, Jobe, and Lilik carried the Potentials banner.
 
@@ -204,7 +204,9 @@ ___
 <div class="in-body-single-img">
     <img src="/assets/img/blog/2026-taragobay/hero/hero-8.jpg" class="d-block w-100" alt="Taragobay Race Photos">
 </div>
-
+<figcaption class="text-center my-2">
+    Waves breaking along the coastlines of Palapag. Photo from Joan Songalia
+</figcaption>
 ___
 
 *CP9* sat atop the newly constructed Municipal Hall.
@@ -226,7 +228,9 @@ ___
 <div class="in-body-single-img">
     <img src="/assets/img/blog/2026-taragobay/side-by-side/sxs-2.jpg" class="d-block w-100" alt="Taragobay Race Photos">
 </div>
-
+<figcaption class="text-center my-2">
+    Team Dirt Core on their MTBs. Photo from Joan Songalia
+</figcaption>
 ___
 
 ## The Missing Checkpoint
