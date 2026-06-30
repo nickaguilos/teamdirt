@@ -11314,7 +11314,7 @@ figcaption {
   text-decoration: none;
   text-transform: uppercase;
   display: block;
-  font-size: 2em;
+  font-size: 1.5em;
   padding-top: 0.5em;
 }
 @media screen and (min-width: 700px) {
@@ -11429,6 +11429,9 @@ figcaption {
     width: 100% !important;
   }
 }
+#blog.teamdirt .blog-roll h3 a {
+  font-family: Inter, sans-serif;
+}
 #blog.teamdirt::before {
   background: none;
 }
@@ -11460,7 +11463,7 @@ figcaption {
 #blog.teamdirt.article p {
   margin-top: 1.5em;
   line-height: 1.5em;
-  font-family: lora, serif;
+  font-family: Lora, serif;
 }
 #blog.teamdirt.article .carousel {
   max-width: 800px;
