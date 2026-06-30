@@ -23,7 +23,7 @@
 			}
 			@media screen and (min-width: 1000px) {
 				p, h1, h2, h3, ul, ol, blockquote {
-					max-width: 700px;
+					max-width: 650px;
 					margin-left: auto;
 					margin-right: auto;
 					// margin-top: 1.5em;
@@ -42,13 +42,46 @@
 		}
 
 		p {
-			margin-top: 1em;
+			margin-top: 1.5em;
+			// font-size: 20px;
+			line-height: 1.5em;
+			font-family: lora, serif;
 		}
 
 		.carousel {
 			max-width: 800px;
 			margin-left: auto;
 			margin-right: auto;
+		}
+
+		.side-by-side {
+			display: flex;
+			gap: 0.5em;
+
+			> div {
+				flex: 1;
+			}
+
+			@media (max-width: 768px) {
+				overflow-x: auto;
+				flex-wrap: nowrap;
+				-webkit-overflow-scrolling: touch;
+				scroll-snap-type: x mandatory;
+
+				> div {
+					flex: 0 0 80%;
+					scroll-snap-align: start;
+				}
+			}
+		}
+
+		.in-body-single-img {
+			max-width: 800px;
+			margin: auto;
+		}
+
+		h2, h3 {
+			margin-top: 1.5em;
 		}
 	}
 }
