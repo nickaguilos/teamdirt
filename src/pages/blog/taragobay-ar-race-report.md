@@ -207,6 +207,7 @@ ___
 <figcaption class="text-center my-2">
     Waves breaking along the coastlines of Palapag. Photo from Joan Songalia
 </figcaption>
+
 ___
 
 *CP9* sat atop the newly constructed Municipal Hall.
@@ -231,6 +232,7 @@ ___
 <figcaption class="text-center my-2">
     Team Dirt Core on their MTBs. Photo from Joan Songalia
 </figcaption>
+
 ___
 
 ## The Missing Checkpoint
