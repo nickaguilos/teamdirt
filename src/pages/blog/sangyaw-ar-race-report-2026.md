@@ -7,7 +7,7 @@ heroImg: "/assets/img/blog/2026-sangyaw/hero-1.jpg"
 category: "Race Report"
 author: "Nick Aguilos"
 position: "Navigator"
-excerpt: "A concise one- or two-sentence summary for the blog listing and social metadata."
+excerpt: "Since 2017, Sangyaw Adventure Race has been the city's premier adventure racing event. We've watched it grow from a straightforward 12-hour sprint race into a full-fledged 48-hour middle-distance adventure race. Every edition has brought something new, and every year has managed to challenge us in different ways."
 supportcopy: "Photos by Joan Songalia"
 # mainClass: "Optional additional class for the article main element"
 ---
