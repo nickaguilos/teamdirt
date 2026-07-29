@@ -64,7 +64,7 @@ ___
 
 Ironically, we would've preferred traditional navigation.
 
-Give us a set of coordinates and a compass bearing over a riddle any day. At least with navigation, you know you're heading in the right direction. With riddles, you're never completely sure you've interpreted the clue correctly until you're standing in front of the checkpoint; or standing in the wrong barangay wondering the hell the CP is.
+Give us a set of coordinates and a compass bearing over a riddle any day. At least with navigation, you know you're heading in the right direction. With riddles, you're never completely sure you've interpreted the clue correctly until you're standing in front of the checkpoint; or standing in the wrong barangay wondering where in the world the CP is.
 
 Eight teams lined up at the start.
 
