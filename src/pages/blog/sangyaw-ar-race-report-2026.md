@@ -1,7 +1,7 @@
 ---
 # Sangyaw AR 2026 Race Report
 layout: "../../layouts/BlogPostLayout.astro"
-title: "Sangyaw Adventure Race 2026"
+title: "Sangyaw Adventure Race 2026: Our Hometown Race Delivers Again"
 date: 2026-06-27
 heroImg: "/assets/img/blog/2026-sangyaw/hero-1.jpg"
 category: "Race Report"
@@ -11,9 +11,6 @@ excerpt: "Since 2017, Sangyaw Adventure Race has been the city's premier adventu
 supportcopy: "Photos by Joan Songalia"
 # mainClass: "Optional additional class for the article main element"
 ---
-
-
-# Sangyaw Adventure Race 2026: Our Hometown Race Delivers Again
 
 *Sangyaw* is an archaic Waray word that means "to announce," "to herald," or "to proclaim news."
 
