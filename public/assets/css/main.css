@@ -11270,7 +11270,7 @@ body.no-scroll {
   overflow: hidden;
 }
 
-.mono, a {
+.mono {
   font-family: "JetBrains Mono", monospace;
 }
 
@@ -11434,6 +11434,9 @@ figcaption {
 }
 #blog.teamdirt::before {
   background: none;
+}
+#blog.teamdirt.article .text-secondary {
+  font-size: 0.9em;
 }
 #blog.teamdirt.article #site-body {
   font-size: 18px;

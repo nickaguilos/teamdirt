@@ -23,7 +23,9 @@ const formattedDate = new Intl.DateTimeFormat("en-US", {
             <mark class="mono mb-2 d-inline-block">{frontmatter.category}:</mark><br> <span class="fw-bold">{frontmatter.title}</span>
         </h1>
 
-        <h2 class="h5 mb-4 text-secondary">Written by {frontmatter.author}, {frontmatter.position} for Team Dirt on <span>{formattedDate}</span> <br>{frontmatter.supportcopy}</h2>
+        <div class="my-2">
+            <span class="text-secondary mono">{frontmatter.author}, {frontmatter.position} for Team Dirt on <span>{formattedDate}</span> <br>{frontmatter.supportcopy}</span>
+        </div>
     </header>
 
     <div class="hero-wrapper">
