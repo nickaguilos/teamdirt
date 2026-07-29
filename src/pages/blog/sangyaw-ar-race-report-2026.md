@@ -45,7 +45,7 @@ Tribu Harbat Mountaineers, the organizers of Sangyaw AR, were unusually quiet th
 
 Then, without much warning, Tribu Harbat announced on Facebook that Sangyaw Adventure Race 2026 was happening on June 27.
 
-The excitement quickly turned into logistics. Sangyaw would now be squeezed into an already packed race calendar. Just two weeks before it, we'd be racing [Taragobay Adventure Race](https://teamdirt.ph/blog/taragobay-ar-race-report/) in Northern Samar. The weekend before Taragobay, we'd already be in [Palompon](https://teamdirt.ph/blog/mind-over-matter-2026-race-report/)for another two-day race. Add a handful of trail and road races in between, and we suddenly found ourselves with barely enough weekends to recover.
+The excitement quickly turned into logistics. Sangyaw would now be squeezed into an already packed race calendar. Just two weeks before it, we'd be racing [Taragobay Adventure Race](https://teamdirt.ph/blog/taragobay-ar-race-report/) in Northern Samar. The weekend before Taragobay, we'd already be in [Palompon](https://teamdirt.ph/blog/mind-over-matter-2026-race-report/) for another two-day race. Add a handful of trail and road races in between, and we suddenly found ourselves with barely enough weekends to recover.
 
 > We were packed and jacked.
 
