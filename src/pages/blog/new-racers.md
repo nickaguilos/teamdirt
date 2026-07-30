@@ -35,7 +35,7 @@ ___
 <img src="/assets/img/blog/2026-new-racers/janix.jpg" class="w-md-75">
 </div>
 
-## Jan Nikko Rosales (Janix)
+## Jan Nikko Rosales
 
 We’ve known Janix since the early Ultimate Frisbee days in Tacloban. Lately, we had also been hearing about his ultra-marathon adventures, so we invited him to join us as our fourth member for last year’s [La Routa](https://teamdirt.ph/blog/la-routa-race-report/). Because of injury concerns, he respectfully turned it down at the time.
 
