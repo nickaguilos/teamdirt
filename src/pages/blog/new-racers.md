@@ -32,7 +32,7 @@ More than anything, we were looking for **willingness**.
 ___
 
 <div class="d-flex align-items-center justify-content-center">
-<img src="/assets/img/blog/2026-new-racers/janix.jpg" class="w-md-75">
+<img src="/assets/img/blog/2026-new-racers/janix.jpg" class="w-75">
 </div>
 
 ## Jan Nikko Rosales
@@ -48,7 +48,7 @@ Janix joins the core team as a navigator, adding depth to a navigator line led b
 ___
 
 <div class="d-flex align-items-center justify-content-center">
-<img src="/assets/img/blog/2026-new-racers/jeff.jpg" class="w-md-75">
+<img src="/assets/img/blog/2026-new-racers/jeff.jpg" class="w-75">
 </div>
 
 ## Jeff Muchamiel Barbosa
@@ -64,7 +64,7 @@ At 21, Jeff has a lot of stamina and skill, which makes him a great fit for the 
 ___
 
 <div class="d-flex align-items-center justify-content-center">
-<img src="/assets/img/blog/2026-new-racers/daniela.jpg" class="w-md-75">
+<img src="/assets/img/blog/2026-new-racers/daniela.jpg" class="w-75">
 </div>
 
 ## Daniela Ann Labrador
