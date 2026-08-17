@@ -23,11 +23,11 @@ This year, they simply did not.
 
 Team Dirt has always been a grassroots team.
 
-We are a Filipinos who love adventure racing, the outdoors and the challenge of moving through difficult terrain together. We train around work, family and everyday responsibilities. We do not have a big organization behind us, and much of what we do is built through our own effort and the support of people who believe in the team.
+We are Filipino athletes who love adventure racing, the outdoors and the challenge of moving through difficult terrain together. We train around work, family and everyday responsibilities. We do not have a big organization behind us, and much of what we do is built through our own effort and the support of people who believe in the team.
 
 We started by joining local races; learning as we went.
 
-Over time, the races became longer, harder and more demanding. We learned how to navigate when we were tired, how to solve problems along the way and how to keep moving when plans started falling apart.
+Over time, the races became longer, harder and more demanding. We learned how to navigate when we were tired, how to solve problems along the way, and how to keep moving when plans started falling apart.
 
 That is part of what makes adventure racing special.
 
